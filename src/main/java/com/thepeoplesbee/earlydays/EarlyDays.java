@@ -84,11 +84,11 @@ public class EarlyDays implements ModInitializer {
     public static final Item COFFEE = new HoneyBottleItem(new FabricItemSettings().group(EARLYDAYS_GROUP).food(EarlyDaysFoodComponents.COFFEE));
     public static final Item TEA = new HoneyBottleItem(new FabricItemSettings().group(EARLYDAYS_GROUP).food(EarlyDaysFoodComponents.TEA));
     public static final Item HERBAL_TEA = new HoneyBottleItem(new FabricItemSettings().group(EARLYDAYS_GROUP).food(EarlyDaysFoodComponents.HERBAL_TEA));
-    public static final Item CHILI = new StewItem(new FabricItemSettings().group(EARLYDAYS_GROUP).food(EarlyDaysFoodComponents.CHILI));
+    public static final Item CHILI = new MushroomStewItem(new FabricItemSettings().group(EARLYDAYS_GROUP).food(EarlyDaysFoodComponents.CHILI));
     //medicines
     public static final Item ALOE_VERA = new Item(new FabricItemSettings().group(EARLYDAYS_GROUP));
     public static final Item BANDAGE = new Item(new FabricItemSettings().group(EARLYDAYS_GROUP));
-    public static final Item SALVE = new StewItem(new FabricItemSettings().group(EARLYDAYS_GROUP).food(EarlyDaysFoodComponents.SALVE).maxCount(1));
+    public static final Item SALVE = new MushroomStewItem(new FabricItemSettings().group(EARLYDAYS_GROUP).food(EarlyDaysFoodComponents.SALVE).maxCount(1));
     public static final Item ELIXIR = new HoneyBottleItem(new FabricItemSettings().group(EARLYDAYS_GROUP).food(EarlyDaysFoodComponents.ELIXIR));
     public static final Item HEARTY_ELIXIR = new HoneyBottleItem(new FabricItemSettings().group(EARLYDAYS_GROUP).food(EarlyDaysFoodComponents.HEARTY_ELIXIR));
     public static final Item ENLIGHTENING_ELIXIR = new HoneyBottleItem(new FabricItemSettings().group(EARLYDAYS_GROUP).food(EarlyDaysFoodComponents.ENLIGHTENING_ELIXIR));
@@ -294,11 +294,11 @@ public class EarlyDays implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier("earlydays", "coffee"), COFFEE);
         Registry.register(Registry.ITEM, new Identifier("earlydays", "tea"), TEA);
         Registry.register(Registry.ITEM, new Identifier("earlydays", "herbal_tea"), HERBAL_TEA);
-        Registry.register(Registry.ITEM, new Identifier("earlydays", "chili"), CHILI);
+        // Registry.register(Registry.ITEM, new Identifier("earlydays", "chili"), CHILI);
         //medicine
         Registry.register(Registry.ITEM, new Identifier("earlydays", "aloe_vera"), ALOE_VERA);
         Registry.register(Registry.ITEM, new Identifier("earlydays", "bandage"), BANDAGE);
-        Registry.register(Registry.ITEM, new Identifier("earlydays", "salve"), SALVE);
+        // Registry.register(Registry.ITEM, new Identifier("earlydays", "salve"), SALVE);
         Registry.register(Registry.ITEM, new Identifier("earlydays", "elixir"), ELIXIR);
         Registry.register(Registry.ITEM, new Identifier("earlydays", "hearty_elixir"), HEARTY_ELIXIR);
         Registry.register(Registry.ITEM, new Identifier("earlydays", "enlightening_elixir"), ENLIGHTENING_ELIXIR);
