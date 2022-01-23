@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:string",
+    "earlydays:rope",
+    "#earlydays:fibres"
+  ]
+} 

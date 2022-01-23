@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "earlydays:block/mycelium_thatch",
+        "top": "earlydays:block/mycelium_thatch",
+        "side": "earlydays:block/mycelium_thatch"
+    }
+}

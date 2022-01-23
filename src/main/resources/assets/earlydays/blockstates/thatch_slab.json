@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "earlydays:block/thatch_slab" },
+        "type=top": { "model": "earlydays:block/thatch_slab_top" },
+        "type=double": { "model": "earlydays:block/thatch" }
+    }
+}

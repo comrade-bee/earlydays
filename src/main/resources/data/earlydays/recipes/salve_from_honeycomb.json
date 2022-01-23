@@ -1,0 +1,22 @@
+ {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "Y#Y"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bowl"
+    },
+    "X": {
+      "item": "minecraft:honeycomb"
+    },
+     "Y":{
+        "item":"earlydays:flower_bundle"
+    }
+  },
+  "result": {
+    "item": "earlydays:salve"
+  }
+}
+ 

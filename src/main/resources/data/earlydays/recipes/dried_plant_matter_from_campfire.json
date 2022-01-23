@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "earlydays:plant_matter"
+  },
+  "result": "earlydays:dried_plant_matter",
+  "cookingtime": 200
+} 

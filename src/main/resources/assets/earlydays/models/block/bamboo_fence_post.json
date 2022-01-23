@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_post",
+    "textures": {
+        "texture": "earlydays:block/bamboo_block_side"
+    }
+}

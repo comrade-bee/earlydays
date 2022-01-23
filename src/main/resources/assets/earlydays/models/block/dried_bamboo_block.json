@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "earlydays:block/dried_bamboo_block_end",
+    "side": "earlydays:block/dried_bamboo_block_side"
+  }
+}

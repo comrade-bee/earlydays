@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_inventory",
+    "textures": {
+        "texture": "earlydays:block/dried_bamboo_block_side"
+    }
+}

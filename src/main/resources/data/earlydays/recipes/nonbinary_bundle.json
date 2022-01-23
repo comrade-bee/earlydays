@@ -1,0 +1,15 @@
+ {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earlydays:flower_bundle_block"
+    },
+    {
+      "item":"minecraft:purple_dye"
+    }
+  ],
+  "result": {
+    "item": "earlydays:nonbinary_bundle",
+    "count":1
+  }
+} 

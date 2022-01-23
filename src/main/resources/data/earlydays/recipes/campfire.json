@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "ZYZ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:logs"
+    },
+    "Z":{
+      "item":"minecraft:stick"
+    },
+    "Y":{
+      "item":"earlydays:wicker_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:campfire"
+  }
+}

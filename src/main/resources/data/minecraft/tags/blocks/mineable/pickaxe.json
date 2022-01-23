@@ -1,0 +1,13 @@
+{
+  "replace":false,
+  "values":[
+    "earlydays:adobe_bricks",
+    "earlydays:adobe_brick_slab",
+    "earlydays:adobe_brick_stairs",
+    "earlydays:adobe_brick_wall",
+    "earlydays:smooth_adobe",
+    "earlydays:smooth_adobe_slab",
+    "earlydays:smooth_adobe_stairs",
+    "earlydays:smooth_adobe_wall"
+    ]
+} 

@@ -1,0 +1,16 @@
+ {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "earlydays:flower_bundle"
+    }
+  },
+  "result": {
+    "item": "earlydays:flower_bundle_block",
+    "count": 1
+  }
+}

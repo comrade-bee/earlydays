@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "earlydays:item/flint_hoe"
+    }
+}

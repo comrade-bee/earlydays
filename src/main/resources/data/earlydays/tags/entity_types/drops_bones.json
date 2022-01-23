@@ -1,0 +1,9 @@
+ {
+  "replace": false,
+  "values": [
+  "#earlydays:large_mammals",
+  "#earlydays:small_mammals",
+  "minecraft:turtle"
+  ]
+}
+ 

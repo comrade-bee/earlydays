@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "earlydays:block/flax_thatch"
+    }
+}

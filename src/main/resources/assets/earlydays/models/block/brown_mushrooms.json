@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "earlydays:block/brown_mushrooms"
+  }
+}

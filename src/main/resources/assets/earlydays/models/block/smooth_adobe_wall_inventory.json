@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_inventory",
+    "textures": {
+        "wall": "earlydays:block/smooth_adobe"
+    }
+}

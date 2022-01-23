@@ -1,0 +1,18 @@
+ {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z#",
+    "#Z"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar_cane"
+    },
+    "Z":{
+      "tag":"earlydays:fibres"
+    }
+  },
+  "result": {
+    "item": "minecraft:paper"
+  }
+}

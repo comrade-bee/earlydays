@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "copper_ingot",
+  "ingredient": {
+    "item": "minecraft:raw_copper"
+  },
+  "result": "earlydays:copper_nugget",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "count":3
+}

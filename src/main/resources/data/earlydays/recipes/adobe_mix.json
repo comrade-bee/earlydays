@@ -1,0 +1,18 @@
+ {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z#",
+    "#Z"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dirt"
+    },
+    "Z":{
+      "item":"earlydays:dried_plant_matter"
+    }
+  },
+  "result": {
+    "item": "earlydays:adobe_mix"
+  }
+}

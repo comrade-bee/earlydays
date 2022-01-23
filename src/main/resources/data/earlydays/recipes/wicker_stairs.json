@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "earlydays:wicker_block"
+    }
+  },
+  "result": {
+    "item": "earlydays:wicker_stairs",
+    "count": 4
+  }
+} 

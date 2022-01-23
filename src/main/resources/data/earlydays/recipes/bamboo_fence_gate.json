@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence_gate",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo"
+    },
+    "W": {
+      "item": "earlydays:bamboo_block"
+    }
+  },
+  "result": {
+    "item": "earlydays:bamboo_fence_gate"
+  }
+} 

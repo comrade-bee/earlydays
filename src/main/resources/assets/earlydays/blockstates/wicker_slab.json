@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "earlydays:block/wicker_slab" },
+        "type=top": { "model": "earlydays:block/wicker_slab_top" },
+        "type=double": { "model": "earlydays:block/wicker_block" }
+    }
+}

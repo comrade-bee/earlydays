@@ -1,0 +1,16 @@
+  {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "earlydays:plant_matter"
+    }
+  },
+  "result": {
+    "item": "earlydays:plant_fibre",
+    "count": 1
+  }
+}

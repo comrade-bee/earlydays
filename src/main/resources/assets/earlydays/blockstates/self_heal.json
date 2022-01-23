@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "earlydays:block/self_heal"
+    }
+  }
+}

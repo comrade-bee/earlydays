@@ -1,0 +1,16 @@
+ {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "earlydays:dried_plant_matter"
+    }
+  },
+  "result": {
+    "item": "earlydays:thatch",
+    "count": 1
+  }
+}

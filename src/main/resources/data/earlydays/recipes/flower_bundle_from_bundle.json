@@ -1,0 +1,12 @@
+ {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "earlydays:flower_bundles"
+    }
+  ],
+  "result": {
+    "item": "earlydays:flower_bundle",
+    "count":4
+  }
+} 

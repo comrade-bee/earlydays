@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_door",
+  "pattern": [
+    "R##",
+    " ##",
+    "R##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo"
+    },
+    "R":{
+      "tag":"earlydays:strings"
+    }
+  },
+  "result": {
+    "item": "earlydays:bamboo_door",
+    "count": 1
+  }
+} 

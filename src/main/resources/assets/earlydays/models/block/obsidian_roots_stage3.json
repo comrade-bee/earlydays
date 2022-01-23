@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "earlydays:block/obsidian_roots_stage3"
+  }
+}

@@ -1,0 +1,22 @@
+ {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XY ",
+    "X# ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:bone"
+    },
+     "Y":{
+        "tag":"earlydays:strings"
+    }
+  },
+  "result": {
+    "item": "earlydays:bone_hatchet"
+  }
+}

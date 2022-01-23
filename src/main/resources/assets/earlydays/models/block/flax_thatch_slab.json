@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "earlydays:block/flax_thatch",
+        "top": "earlydays:block/flax_thatch",
+        "side": "earlydays:block/flax_thatch"
+    }
+}

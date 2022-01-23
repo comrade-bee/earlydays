@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "earlydays:block/smooth_adobe_slab" },
+        "type=top": { "model": "earlydays:block/smooth_adobe_slab_top" },
+        "type=double": { "model": "earlydays:block/smooth_adobe_block" }
+    }
+}

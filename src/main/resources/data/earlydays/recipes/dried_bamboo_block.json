@@ -1,0 +1,17 @@
+ {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "earlydays:dried_bamboo"
+    }
+  },
+  "result": {
+    "item": "earlydays:dried_bamboo_block",
+    "count": 1
+  }
+}

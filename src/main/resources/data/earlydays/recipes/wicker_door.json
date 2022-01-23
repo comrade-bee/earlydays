@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_door",
+  "pattern": [
+    "R##",
+    " ##",
+    "R##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "R":{
+      "item":"earlydays:rope"
+    }
+  },
+  "result": {
+    "item": "earlydays:wicker_door",
+    "count": 1
+  }
+} 

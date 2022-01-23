@@ -1,0 +1,15 @@
+ {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earlydays:flower_bundle_block"
+    },
+    {
+      "item":"minecraft:orange_dye"
+    }
+  ],
+  "result": {
+    "item": "earlydays:lesbian_bundle",
+    "count":1
+  }
+} 

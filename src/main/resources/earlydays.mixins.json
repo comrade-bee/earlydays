@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.thepeoplesbee.earlydays.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "CopperMiningMixin",
+    "MatchingStackAccessor",
+    "RecipeFieldAccessor",
+    "AbstractFurnaceBlockEntityMixin",
+    "IgnoreAirRecipesMixin",
+    "SmeltingRecipeCountMixin",
+    "LogsRequireAxeMixin",
+    "LootTableBuilderAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

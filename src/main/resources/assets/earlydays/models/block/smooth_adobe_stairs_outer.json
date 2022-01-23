@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "earlydays:block/smooth_adobe",
+        "top": "earlydays:block/smooth_adobe",
+        "side": "earlydays:block/smooth_adobe"
+    }
+}

@@ -1,0 +1,19 @@
+ {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X#X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bowl"
+    },
+    "X": {
+      "item": "earlydays:self_heal"
+    }
+  },
+  "result": {
+    "item": "earlydays:salve"
+  }
+}
+ 

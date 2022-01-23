@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "earlydays:block/peppers_stage0"
+    },
+    "age=1": {
+      "model": "earlydays:block/peppers_stage1"
+    },
+    "age=2": {
+      "model": "earlydays:block/peppers_stage2"
+    },
+    "age=3": {
+      "model": "earlydays:block/peppers_stage3"
+    },
+    "age=4": {
+      "model": "earlydays:block/peppers_stage4"
+    },
+    "age=5": {
+      "model": "earlydays:block/peppers_stage5"
+    },
+    "age=6": {
+      "model": "earlydays:block/peppers_stage6"
+    },
+    "age=7": {
+      "model": "earlydays:block/peppers_stage7"
+    }
+  }
+}

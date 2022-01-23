@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "earlydays:block/thatch",
+        "top": "earlydays:block/thatch",
+        "side": "earlydays:block/thatch"
+    }
+}
