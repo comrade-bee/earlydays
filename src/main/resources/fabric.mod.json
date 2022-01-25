@@ -4,14 +4,11 @@
   "version": "0.1.1",
 
   "name": "Early Days",
-  "description": "An attempt to add depth to the early stages of survival. Code used under the MIT license from EarlyGame https://github.com/JayCeeCreates/earlygame and recipe improver https://github.com/antlilja/recipe_improver.",
+  "description": "Early Days adds depth and additional progression to early game survival.",
   "authors": [
-    "ThePeoplesBee"
+    "comrade-bee",
+    "mazziechai"
   ],
-  "contact": {
-    "homepage": "",
-    "sources": ""
-  },
 
   "license": "MIT",
   "icon": "assets/earlydays/icon.png",
@@ -19,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.thepeoplesbee.earlydays.EarlyDays"
+      "cafe.ferret.mc.earlydays.EarlyDays"
     ],
     "client": [
-      "com.thepeoplesbee.earlydays.EarlyDaysClient"
+      "cafe.ferret.mc.earlydays.client.EarlyDaysClient"
     ]
   },
   "mixins": [
@@ -30,12 +27,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.12.6",
+    "fabricloader": ">=0.12.12",
     "fabric": "*",
     "minecraft": "1.18.x",
-    "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
+    "java": ">=17"
   }
 }

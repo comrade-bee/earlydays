@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.thepeoplesbee.earlydays.mixin",
+  "package": "cafe.ferret.mc.earlydays.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
     "CopperMiningMixin",
