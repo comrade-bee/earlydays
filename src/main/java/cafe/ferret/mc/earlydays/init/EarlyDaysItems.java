@@ -13,8 +13,6 @@ import java.util.HashMap;
 import java.util.Locale;
 
 public class EarlyDaysItems {
-    public static final FabricItemSettings ITEM_SETTINGS = new FabricItemSettings().group(EarlyDays.ITEM_GROUP);
-
     // Generic items are items that can be added without needing any special settings.
     public enum GenericItem {
         PLANT_MATTER, MYCELIUM_MATTER, PLANT_FIBER, MYCELIUM_FIBER, DRIED_PLANT_MATTER,
@@ -26,64 +24,64 @@ public class EarlyDaysItems {
     public static HashMap<GenericItem, Item> genericItems = new HashMap<>();
 
     // Edibles
-    public static final Item PEPPER = new Item(ITEM_SETTINGS.food(EarlyDaysFoodComponents.PEPPER));
-    public static final Item CATFISH = new Item(ITEM_SETTINGS.food(EarlyDaysFoodComponents.MEAT_BITS));
-    public static final Item MINNOW = new Item(ITEM_SETTINGS.food(EarlyDaysFoodComponents.MEAT_BITS));
-    public static final Item CRAYFISH = new Item(ITEM_SETTINGS.food(EarlyDaysFoodComponents.MEAT_BITS));
-    public static final Item LOBSTER = new Item(ITEM_SETTINGS.food(EarlyDaysFoodComponents.MEAT_BITS));
-    public static final Item MEAT_BITS = new Item(ITEM_SETTINGS.food(EarlyDaysFoodComponents.MEAT_BITS));
-    public static final Item GRUB = new Item(ITEM_SETTINGS.food(EarlyDaysFoodComponents.MEAT_BITS));
-    public static final HoneyBottleItem COFFEE = new HoneyBottleItem(ITEM_SETTINGS.food(EarlyDaysFoodComponents.COFFEE));
-    public static final HoneyBottleItem TEA = new HoneyBottleItem(ITEM_SETTINGS.food(EarlyDaysFoodComponents.TEA));
-    public static final HoneyBottleItem HERBAL_TEA = new HoneyBottleItem(ITEM_SETTINGS.food(EarlyDaysFoodComponents.HERBAL_TEA));
-    public static final MushroomStewItem CHILI = new MushroomStewItem(ITEM_SETTINGS.food(EarlyDaysFoodComponents.CHILI));
+    public static final Item PEPPER = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.PEPPER));
+    public static final Item CATFISH = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
+    public static final Item MINNOW = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
+    public static final Item CRAYFISH = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
+    public static final Item LOBSTER = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
+    public static final Item MEAT_BITS = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
+    public static final Item GRUB = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
+    public static final HoneyBottleItem COFFEE = new HoneyBottleItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.COFFEE));
+    public static final HoneyBottleItem TEA = new HoneyBottleItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.TEA));
+    public static final HoneyBottleItem HERBAL_TEA = new HoneyBottleItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.HERBAL_TEA));
+    public static final MushroomStewItem CHILI = new MushroomStewItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.CHILI));
 
     // Medicines
-    public static final MushroomStewItem SALVE = new MushroomStewItem(ITEM_SETTINGS.food(EarlyDaysFoodComponents.SALVE).maxCount(1));
-    public static final HoneyBottleItem ELIXIR = new HoneyBottleItem(ITEM_SETTINGS.food(EarlyDaysFoodComponents.ELIXIR));
-    public static final HoneyBottleItem HEARTY_ELIXIR = new HoneyBottleItem(ITEM_SETTINGS.food(EarlyDaysFoodComponents.HEARTY_ELIXIR));
-    public static final HoneyBottleItem ENLIGHTENING_ELIXIR = new HoneyBottleItem(ITEM_SETTINGS.food(EarlyDaysFoodComponents.ENLIGHTENING_ELIXIR));
-    public static final HoneyBottleItem TANNING_SOLUTION = new HoneyBottleItem(ITEM_SETTINGS.food(EarlyDaysFoodComponents.TANNING_SOLUTION));
-    public static final HoneyBottleItem CORRODING_SOLUTION = new HoneyBottleItem(ITEM_SETTINGS.food(EarlyDaysFoodComponents.CORRODING_SOLUTION));
+    public static final MushroomStewItem SALVE = new MushroomStewItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.SALVE).maxCount(1));
+    public static final HoneyBottleItem ELIXIR = new HoneyBottleItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.ELIXIR));
+    public static final HoneyBottleItem HEARTY_ELIXIR = new HoneyBottleItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.HEARTY_ELIXIR));
+    public static final HoneyBottleItem ENLIGHTENING_ELIXIR = new HoneyBottleItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.ENLIGHTENING_ELIXIR));
+    public static final HoneyBottleItem TANNING_SOLUTION = new HoneyBottleItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.TANNING_SOLUTION));
+    public static final HoneyBottleItem CORRODING_SOLUTION = new HoneyBottleItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.CORRODING_SOLUTION));
 
     // Tools
-    public static final KnifeItem FLINT_KNIFE = new KnifeItem(EarlyDaysToolMaterials.FLINT, 3, -2.4F, ITEM_SETTINGS);
-    public static final ShovelItem FLINT_SHOVEL = new ShovelItem(EarlyDaysToolMaterials.FLINT, 1.5f, -3.0f, ITEM_SETTINGS);
-    public static final EarlyDaysPickaxeItem FLINT_PICKAXE = new EarlyDaysPickaxeItem(EarlyDaysToolMaterials.FLINT, 1, -2.8f, ITEM_SETTINGS);
-    public static final EarlyDaysAxeItem FLINT_HATCHET = new EarlyDaysAxeItem(EarlyDaysToolMaterials.FLINT, 3, -2.4f, ITEM_SETTINGS);
-    public static final EarlyDaysHoeItem FLINT_HOE = new EarlyDaysHoeItem(EarlyDaysToolMaterials.FLINT, 0, -3.0f, ITEM_SETTINGS);
-    public static final KnifeItem BONE_KNIFE = new KnifeItem(EarlyDaysToolMaterials.FLINT, 3, -2.4F, ITEM_SETTINGS);
-    public static final ShovelItem BONE_SHOVEL = new ShovelItem(EarlyDaysToolMaterials.FLINT, 1.5f, -3.0f, ITEM_SETTINGS);
-    public static final EarlyDaysPickaxeItem BONE_PICKAXE = new EarlyDaysPickaxeItem(EarlyDaysToolMaterials.FLINT, 1, -2.8f, ITEM_SETTINGS);
-    public static final EarlyDaysAxeItem BONE_HATCHET = new EarlyDaysAxeItem(EarlyDaysToolMaterials.FLINT, 3, -2.4f, ITEM_SETTINGS);
-    public static final EarlyDaysHoeItem BONE_HOE = new EarlyDaysHoeItem(EarlyDaysToolMaterials.FLINT, 0, -3.0f, ITEM_SETTINGS);
-    public static final KnifeItem COPPER_KNIFE = new KnifeItem(EarlyDaysToolMaterials.COPPER, 3, -2.4F, ITEM_SETTINGS);
-    public static final ShovelItem COPPER_SHOVEL = new ShovelItem(EarlyDaysToolMaterials.COPPER, 1.5f, -3.0f, ITEM_SETTINGS);
-    public static final EarlyDaysPickaxeItem COPPER_PICKAXE = new EarlyDaysPickaxeItem(EarlyDaysToolMaterials.COPPER, 1, -2.8f, ITEM_SETTINGS);
-    public static final EarlyDaysAxeItem COPPER_HATCHET = new EarlyDaysAxeItem(EarlyDaysToolMaterials.COPPER, 3, -2.4f, ITEM_SETTINGS);
-    public static final EarlyDaysHoeItem COPPER_HOE = new EarlyDaysHoeItem(EarlyDaysToolMaterials.COPPER, 0, -3.0f, ITEM_SETTINGS);
-    public static final ShearsItem COPPER_SHEARS = new ShearsItem(ITEM_SETTINGS.maxDamage(20));
+    public static final KnifeItem FLINT_KNIFE = new KnifeItem(EarlyDaysToolMaterials.FLINT, 3, -2.4F, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final ShovelItem FLINT_SHOVEL = new ShovelItem(EarlyDaysToolMaterials.FLINT, 1.5f, -3.0f, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final EarlyDaysPickaxeItem FLINT_PICKAXE = new EarlyDaysPickaxeItem(EarlyDaysToolMaterials.FLINT, 1, -2.8f, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final EarlyDaysAxeItem FLINT_HATCHET = new EarlyDaysAxeItem(EarlyDaysToolMaterials.FLINT, 3, -2.4f, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final EarlyDaysHoeItem FLINT_HOE = new EarlyDaysHoeItem(EarlyDaysToolMaterials.FLINT, 0, -3.0f, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final KnifeItem BONE_KNIFE = new KnifeItem(EarlyDaysToolMaterials.FLINT, 3, -2.4F, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final ShovelItem BONE_SHOVEL = new ShovelItem(EarlyDaysToolMaterials.FLINT, 1.5f, -3.0f, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final EarlyDaysPickaxeItem BONE_PICKAXE = new EarlyDaysPickaxeItem(EarlyDaysToolMaterials.FLINT, 1, -2.8f, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final EarlyDaysAxeItem BONE_HATCHET = new EarlyDaysAxeItem(EarlyDaysToolMaterials.FLINT, 3, -2.4f, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final EarlyDaysHoeItem BONE_HOE = new EarlyDaysHoeItem(EarlyDaysToolMaterials.FLINT, 0, -3.0f, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final KnifeItem COPPER_KNIFE = new KnifeItem(EarlyDaysToolMaterials.COPPER, 3, -2.4F, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final ShovelItem COPPER_SHOVEL = new ShovelItem(EarlyDaysToolMaterials.COPPER, 1.5f, -3.0f, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final EarlyDaysPickaxeItem COPPER_PICKAXE = new EarlyDaysPickaxeItem(EarlyDaysToolMaterials.COPPER, 1, -2.8f, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final EarlyDaysAxeItem COPPER_HATCHET = new EarlyDaysAxeItem(EarlyDaysToolMaterials.COPPER, 3, -2.4f, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final EarlyDaysHoeItem COPPER_HOE = new EarlyDaysHoeItem(EarlyDaysToolMaterials.COPPER, 0, -3.0f, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final ShearsItem COPPER_SHEARS = new ShearsItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).maxDamage(20));
 
-    public static final ArmorItem FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.FLOWER, EquipmentSlot.HEAD, ITEM_SETTINGS);
-    public static final ArmorItem ACE_FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.ACE_FLOWER, EquipmentSlot.HEAD, ITEM_SETTINGS);
-    public static final ArmorItem ARO_FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.ARO_FLOWER, EquipmentSlot.HEAD, ITEM_SETTINGS);
-    public static final ArmorItem BI_FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.BI_FLOWER, EquipmentSlot.HEAD, ITEM_SETTINGS);
-    public static final ArmorItem LESBIAN_FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.LESBIAN_FLOWER, EquipmentSlot.HEAD, ITEM_SETTINGS);
-    public static final ArmorItem NONBINARY_FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.NONBINARY_FLOWER, EquipmentSlot.HEAD, ITEM_SETTINGS);
-    public static final ArmorItem PAN_FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.PAN_FLOWER, EquipmentSlot.HEAD, ITEM_SETTINGS);
-    public static final ArmorItem TRANS_FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.TRANS_FLOWER, EquipmentSlot.HEAD, ITEM_SETTINGS);
-    public static final ArmorItem WOOD_HELMET = new ArmorItem(EarlyDaysArmorMaterials.WOOD, EquipmentSlot.HEAD, ITEM_SETTINGS);
-    public static final ArmorItem WOOD_CHESTPLATE = new ArmorItem(EarlyDaysArmorMaterials.WOOD, EquipmentSlot.CHEST, ITEM_SETTINGS);
-    public static final ArmorItem WOOD_LEGGINGS = new ArmorItem(EarlyDaysArmorMaterials.WOOD, EquipmentSlot.LEGS, ITEM_SETTINGS);
-    public static final ArmorItem WOOD_BOOTS = new ArmorItem(EarlyDaysArmorMaterials.WOOD, EquipmentSlot.FEET, ITEM_SETTINGS);
+    public static final ArmorItem FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.FLOWER, EquipmentSlot.HEAD, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final ArmorItem ACE_FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.ACE_FLOWER, EquipmentSlot.HEAD, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final ArmorItem ARO_FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.ARO_FLOWER, EquipmentSlot.HEAD, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final ArmorItem BI_FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.BI_FLOWER, EquipmentSlot.HEAD, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final ArmorItem LESBIAN_FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.LESBIAN_FLOWER, EquipmentSlot.HEAD, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final ArmorItem NONBINARY_FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.NONBINARY_FLOWER, EquipmentSlot.HEAD, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final ArmorItem PAN_FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.PAN_FLOWER, EquipmentSlot.HEAD, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final ArmorItem TRANS_FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.TRANS_FLOWER, EquipmentSlot.HEAD, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final ArmorItem WOOD_HELMET = new ArmorItem(EarlyDaysArmorMaterials.WOOD, EquipmentSlot.HEAD, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final ArmorItem WOOD_CHESTPLATE = new ArmorItem(EarlyDaysArmorMaterials.WOOD, EquipmentSlot.CHEST, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final ArmorItem WOOD_LEGGINGS = new ArmorItem(EarlyDaysArmorMaterials.WOOD, EquipmentSlot.LEGS, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final ArmorItem WOOD_BOOTS = new ArmorItem(EarlyDaysArmorMaterials.WOOD, EquipmentSlot.FEET, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
 
     // Aliased block items
-    public static final Item PEPPER_SEEDS = new AliasedBlockItem(EarlyDaysBlocks.PEPPERS, EarlyDaysItems.ITEM_SETTINGS);
-    public static final Item COTTON_BALL = new AliasedBlockItem(EarlyDaysBlocks.COTTON, EarlyDaysItems.ITEM_SETTINGS);
-    public static final Item GINGER = new AliasedBlockItem(EarlyDaysBlocks.GINGERS, EarlyDaysItems.ITEM_SETTINGS.food(EarlyDaysFoodComponents.GINGER));
-    public static final Item ALOE_VERA_SEEDS = new AliasedBlockItem(EarlyDaysBlocks.ALOE, EarlyDaysItems.ITEM_SETTINGS);
-    public static final Item OBSIDIAN_ROOT = new AliasedBlockItem(EarlyDaysBlocks.OBSIDIAN_ROOTS, EarlyDaysItems.ITEM_SETTINGS.food(EarlyDaysFoodComponents.GINGER));
-    public static final Item FLAX_SEEDS = new AliasedBlockItem(EarlyDaysBlocks.FLAX, EarlyDaysItems.ITEM_SETTINGS);
+    public static final Item PEPPER_SEEDS = new AliasedBlockItem(EarlyDaysBlocks.PEPPERS, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final Item COTTON_BALL = new AliasedBlockItem(EarlyDaysBlocks.COTTON, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final Item GINGER = new AliasedBlockItem(EarlyDaysBlocks.GINGERS, new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.GINGER));
+    public static final Item ALOE_VERA_SEEDS = new AliasedBlockItem(EarlyDaysBlocks.ALOE, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
+    public static final Item OBSIDIAN_ROOT = new AliasedBlockItem(EarlyDaysBlocks.OBSIDIAN_ROOTS, new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.GINGER));
+    public static final Item FLAX_SEEDS = new AliasedBlockItem(EarlyDaysBlocks.FLAX, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
 
     public static void register() {
         // Registering all "generic" items and placing them in a HashMap for later access.
@@ -91,7 +89,7 @@ public class EarlyDaysItems {
             genericItems.put(item, Registry.register(
                     Registry.ITEM,
                     new Identifier(EarlyDays.MODID, item.name().toLowerCase(Locale.ROOT)),
-                    new Item(ITEM_SETTINGS)
+                    new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP))
             ));
         }
 
