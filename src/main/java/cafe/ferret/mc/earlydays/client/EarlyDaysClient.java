@@ -35,7 +35,10 @@ public class EarlyDaysClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.BAMBOO_TRAPDOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.DRIED_BAMBOO_TRAPDOOR, RenderLayer.getCutout());
 
+      //  BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.WHEEL_LOOM, RenderLayer.getCutout());
+
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.BLUEBELLS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.TUNDRA_POPPY, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.SHRUB, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.WEEPING_LILY, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.RED_ORCHID, RenderLayer.getCutout());
@@ -44,6 +47,7 @@ public class EarlyDaysClient implements ClientModInitializer {
 
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.THORNS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.WILD_ALOE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.RUSTBEAD_PLANT, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.WITHERCAP_MUSHROOM, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.BARGAIN_BELL, RenderLayer.getCutout());

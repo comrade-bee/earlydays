@@ -56,6 +56,7 @@ public class EarlyDaysBlocks {
     //chairs
     //stools
     //tables
+   // public static final Block WHEEL_LOOM = new WheelLoomBlock(FabricBlockSettings.copy(Blocks.OAK_LOG));
     //misc
     //bundles
     public static final Block ACE_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
@@ -68,6 +69,7 @@ public class EarlyDaysBlocks {
     public static final Block TRANS_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
     //flowers
     public static final FlowerBlock BLUEBELLS = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
+    public static final FlowerBlock TUNDRA_POPPY = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
     public static final FlowerBlock SHRUB = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
     public static final FlowerBlock WEEPING_LILY = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
     public static final FlowerBlock RED_ORCHID = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
@@ -76,6 +78,7 @@ public class EarlyDaysBlocks {
     //plants
     public static final FlowerBlock THORNS = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
     public static final EarlyDaysSandPlant WILD_ALOE = new EarlyDaysSandPlant(StatusEffects.FIRE_RESISTANCE, 0, FabricBlockSettings.copy(Blocks.ALLIUM));
+    public static final FlowerBlock RUSTBEAD_PLANT = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
     //fungi
     public static final EarlyDaysMushroomPlantBlock WITHERCAP_MUSHROOM = new EarlyDaysMushroomPlantBlock(FabricBlockSettings.of(Material.PLANT, MapColor.BROWN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS));
     public static final EarlyDaysMushroomPlantBlock BARGAIN_BELL = new EarlyDaysMushroomPlantBlock(FabricBlockSettings.of(Material.PLANT, MapColor.BROWN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS));
@@ -144,6 +147,7 @@ public class EarlyDaysBlocks {
         //chairs
         //stools
         //tables
+    //    EDRegistry.registerBlockWithItem("wheel_loom", WHEEL_LOOM);
         //misc
         //bundles
         EDRegistry.registerBlockWithItem("ace_bundle", ACE_BUNDLE);
@@ -156,6 +160,7 @@ public class EarlyDaysBlocks {
         EDRegistry.registerBlockWithItem("trans_bundle", TRANS_BUNDLE);
         //flowers
         EDRegistry.registerBlockWithItem("bluebells", BLUEBELLS);
+        EDRegistry.registerBlockWithItem("tundra_poppy", TUNDRA_POPPY);
         EDRegistry.registerBlockWithItem("shrub", SHRUB);
         EDRegistry.registerBlockWithItem("weeping_lily", WEEPING_LILY);
         EDRegistry.registerBlockWithItem("red_orchid", RED_ORCHID);
@@ -164,6 +169,7 @@ public class EarlyDaysBlocks {
         //plants
         EDRegistry.registerBlockWithItem("thorns", THORNS);
         EDRegistry.registerBlockWithItem("wild_aloe", WILD_ALOE);
+        EDRegistry.registerBlockWithItem("rustbead_plant", RUSTBEAD_PLANT);
         //fungi
         EDRegistry.registerBlockWithItem("withercap_mushroom", WITHERCAP_MUSHROOM);
         EDRegistry.registerBlockWithItem("bargain_bell", BARGAIN_BELL);
