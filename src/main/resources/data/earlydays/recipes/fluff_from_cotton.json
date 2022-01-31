@@ -1,0 +1,12 @@
+ {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earlydays:cotton_ball"
+    }
+  ],
+  "result": {
+    "item": "earlydays:fluff",
+    "count":1
+  }
+} 

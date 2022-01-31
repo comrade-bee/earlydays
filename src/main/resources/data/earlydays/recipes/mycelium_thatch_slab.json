@@ -1,17 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#  ",
-    "## ",
     "###"
   ],
   "key": {
     "#": {
-      "item": "earlydays:adobe_bricks"
+      "item": "earlydays:mycelium_thatch"
     }
   },
   "result": {
-    "item": "earlydays:adobe_brick_stairs",
-    "count": 4
+    "item": "earlydays:mycelium_thatch_slab",
+    "count": 6
   }
 } 

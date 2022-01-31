@@ -5,7 +5,13 @@
       "item": "earlydays:flower_bundle_block"
     },
     {
-      "item":"minecraft:cyan_dye"
+      "item":"minecraft:blue_dye"
+    },
+    {
+      "item":"minecraft:yellow_dye"
+    },
+    {
+      "item":"minecraft:orange_dye"
     }
   ],
   "result": {

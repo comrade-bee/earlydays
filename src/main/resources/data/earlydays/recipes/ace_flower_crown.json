@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "earlydays:flower_bundle_block"
+      "item": "earlydays:flower_crown"
     },
     {
       "item":"minecraft:black_dye"
@@ -15,7 +15,7 @@
     }
   ],
   "result": {
-    "item": "earlydays:ace_bundle",
+    "item": "earlydays:ace_flower_crown",
     "count":1
   }
 } 

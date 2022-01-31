@@ -1,0 +1,16 @@
+ {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "earlydays:flax_bundle"
+    }
+  },
+  "result": {
+    "item": "earlydays:flax_thatch",
+    "count": 1
+  }
+}

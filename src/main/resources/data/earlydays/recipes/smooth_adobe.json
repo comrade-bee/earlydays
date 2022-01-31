@@ -1,9 +1,8 @@
-{
+ {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#  ",
-    "## ",
-    "###"
+    "##",
+    "##"
   ],
   "key": {
     "#": {
@@ -11,7 +10,7 @@
     }
   },
   "result": {
-    "item": "earlydays:adobe_brick_stairs",
+    "item": "earlydays:smooth_adobe",
     "count": 4
   }
-} 
+}

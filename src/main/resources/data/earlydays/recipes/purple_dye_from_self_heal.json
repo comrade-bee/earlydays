@@ -1,0 +1,12 @@
+ {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earlydays:self_heal"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_dye",
+    "count":1
+  }
+} 

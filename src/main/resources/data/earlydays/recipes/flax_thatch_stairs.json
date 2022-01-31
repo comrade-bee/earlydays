@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "earlydays:adobe_bricks"
+      "item": "earlydays:flax_thatch"
     }
   },
   "result": {
-    "item": "earlydays:adobe_brick_stairs",
+    "item": "earlydays:flax_thatch_stairs",
     "count": 4
   }
 } 

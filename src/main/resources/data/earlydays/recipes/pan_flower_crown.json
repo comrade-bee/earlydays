@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "earlydays:flower_bundle_block"
+      "item": "earlydays:flower_crown"
     },
     {
-      "item":"minecraft:red_dye"
+      "item":"minecraft:blue_dye"
     },
     {
-      "item":"minecraft:purple_dye"
+      "item":"minecraft:yellow_dye"
     },
     {
       "item":"minecraft:orange_dye"
     }
   ],
   "result": {
-    "item": "earlydays:lesbian_bundle",
+    "item": "earlydays:pan_flower_crown",
     "count":1
   }
 } 

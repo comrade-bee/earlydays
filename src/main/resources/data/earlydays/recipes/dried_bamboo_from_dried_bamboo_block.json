@@ -1,0 +1,12 @@
+ {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earlydays:dried_bamboo_block"
+    }
+  ],
+  "result": {
+    "item": "earlydays:dried_bamboo",
+    "count":9
+  }
+} 

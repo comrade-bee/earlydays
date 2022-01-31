@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#R#"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:logs"
+    },
+    "R":{
+      "item":"earlydays:rope"
+    }
+  },
+  "result": {
+    "item": "earlydays:wood_helmet",
+    "count": 1
+  }
+} 
