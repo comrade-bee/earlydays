@@ -52,12 +52,8 @@ public class EarlyDaysBlocks {
     public static final FenceGateBlock WICKER_FENCE_GATE = new FenceGateBlock(FabricBlockSettings.copy(WICKER_BLOCK));
     public static final FenceGateBlock BAMBOO_FENCE_GATE = new FenceGateBlock(FabricBlockSettings.copy(BAMBOO_BLOCK));
     public static final FenceGateBlock DRIED_BAMBOO_FENCE_GATE = new FenceGateBlock(FabricBlockSettings.copy(DRIED_BAMBOO_BLOCK));
-    //shelves
-    //chairs
-    //stools
-    //tables
-   // public static final Block WHEEL_LOOM = new WheelLoomBlock(FabricBlockSettings.copy(Blocks.OAK_LOG));
     //misc
+    //public static final Block WHEEL_LOOM = new Block(FabricBlockSettings.copy(Blocks.OAK_LOG));
     //bundles
     public static final Block ACE_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
     public static final Block ARO_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
@@ -142,13 +138,8 @@ public class EarlyDaysBlocks {
         EDRegistry.registerBlockWithItem("wicker_fence_gate", WICKER_FENCE_GATE);
         EDRegistry.registerBlockWithItem("bamboo_fence_gate", BAMBOO_FENCE_GATE);
         EDRegistry.registerBlockWithItem("dried_bamboo_fence_gate", DRIED_BAMBOO_FENCE_GATE);
-        //boxes
-        //shelves
-        //chairs
-        //stools
-        //tables
-    //    EDRegistry.registerBlockWithItem("wheel_loom", WHEEL_LOOM);
         //misc
+       // EDRegistry.registerBlockWithItem("wheel_loom", WHEEL_LOOM);
         //bundles
         EDRegistry.registerBlockWithItem("ace_bundle", ACE_BUNDLE);
         EDRegistry.registerBlockWithItem("aro_bundle", ARO_BUNDLE);
