@@ -5,13 +5,10 @@
   "compatibilityLevel": "JAVA_16",
   "mixins": [
     "CopperMiningMixin",
-    "MatchingStackAccessor",
-    "RecipeFieldAccessor",
-    "AbstractFurnaceBlockEntityMixin",
-    "IgnoreAirRecipesMixin",
-    "SmeltingRecipeCountMixin",
     "LogsRequireAxeMixin",
-    "LootTableBuilderAccessor"
+    "LootTableBuilderAccessor",
+    "MatchingStackAccessor",
+    "RecipeFieldAccessor"
   ],
   "client": [
   ],

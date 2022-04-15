@@ -1,5 +1,19 @@
 {
-    "variants": {
-        "": { "model": "earlydays:block/wheel_loom" }
+  "variants": {
+    "facing=east": {
+      "model": "earlydays:block/wheel_loom",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "earlydays:block/wheel_loom"
+    },
+    "facing=south": {
+      "model": "earlydays:block/wheel_loom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "earlydays:block/wheel_loom",
+      "y": 270
     }
+  }
 }

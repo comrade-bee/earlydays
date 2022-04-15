@@ -1,6 +1,3 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "earlydays:block/wheel_loom"
-    }
+    "parent": "earlydays:block/wheel_loom"
 }

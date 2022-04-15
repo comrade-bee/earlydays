@@ -12,7 +12,6 @@ public class EarlyDaysBlocks {
     public static final Block WICKER_BLOCK = new Block(FabricBlockSettings.of(Material.WOOD, MapColor.BROWN).strength(1.5F, 3.0F).sounds(BlockSoundGroup.WOOD));
     public static final Block THATCH = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
     public static final Block FLAX_THATCH = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
-    public static final Block MYCELIUM_THATCH = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
     public static final Block ADOBE_BRICKS = new Block(FabricBlockSettings.of(Material.STONE, MapColor.DIRT_BROWN).requiresTool().strength(1.25F, 4.2F));
     public static final Block SMOOTH_ADOBE = new Block(FabricBlockSettings.copy(ADOBE_BRICKS));
     public static final PillarBlock BAMBOO_BLOCK = new PillarBlock(FabricBlockSettings.of(Material.WOOD, MapColor.GREEN).strength(1.5F, 3.0F).sounds(BlockSoundGroup.WOOD));
@@ -24,14 +23,12 @@ public class EarlyDaysBlocks {
     public static final SlabBlock WICKER_SLAB = new SlabBlock(FabricBlockSettings.copy(WICKER_BLOCK));
     public static final SlabBlock THATCH_SLAB = new SlabBlock(FabricBlockSettings.copy(THATCH));
     public static final SlabBlock FLAX_THATCH_SLAB = new SlabBlock(FabricBlockSettings.copy(FLAX_THATCH));
-    public static final SlabBlock MYCELIUM_THATCH_SLAB = new SlabBlock(FabricBlockSettings.copy(MYCELIUM_THATCH));
     public static final SlabBlock ADOBE_BRICK_SLAB = new SlabBlock(FabricBlockSettings.copy(ADOBE_BRICKS));
     public static final SlabBlock SMOOTH_ADOBE_SLAB = new SlabBlock(FabricBlockSettings.copy(SMOOTH_ADOBE));
     //stairs
     public static final EarlyDaysStairsBlock WICKER_STAIRS = new EarlyDaysStairsBlock(WICKER_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(WICKER_BLOCK));
     public static final EarlyDaysStairsBlock THATCH_STAIRS = new EarlyDaysStairsBlock(THATCH.getDefaultState(), FabricBlockSettings.copyOf(THATCH));
     public static final EarlyDaysStairsBlock FLAX_THATCH_STAIRS = new EarlyDaysStairsBlock(FLAX_THATCH.getDefaultState(), FabricBlockSettings.copyOf(FLAX_THATCH));
-    public static final EarlyDaysStairsBlock MYCELIUM_THATCH_STAIRS = new EarlyDaysStairsBlock(MYCELIUM_THATCH.getDefaultState(), FabricBlockSettings.copyOf(MYCELIUM_THATCH));
     public static final EarlyDaysStairsBlock ADOBE_BRICK_STAIRS = new EarlyDaysStairsBlock(ADOBE_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(ADOBE_BRICKS));
     public static final EarlyDaysStairsBlock SMOOTH_ADOBE_STAIRS = new EarlyDaysStairsBlock(SMOOTH_ADOBE.getDefaultState(), FabricBlockSettings.copyOf(SMOOTH_ADOBE));
     //doors
@@ -54,6 +51,8 @@ public class EarlyDaysBlocks {
     public static final FenceGateBlock DRIED_BAMBOO_FENCE_GATE = new FenceGateBlock(FabricBlockSettings.copy(DRIED_BAMBOO_BLOCK));
     //misc
     //public static final Block WHEEL_LOOM = new Block(FabricBlockSettings.copy(Blocks.OAK_LOG));
+    public static final BasketBlock WICKER_BASKET = new BasketBlock(FabricBlockSettings.copy(WICKER_BLOCK));
+    public static final Block DRYING_RACK = new Block(FabricBlockSettings.copy(WICKER_BLOCK));
     //bundles
     public static final Block ACE_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
     public static final Block ARO_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
@@ -88,7 +87,6 @@ public class EarlyDaysBlocks {
     public static final EarlyDaysMushroomPlantBlock AMETHYST_DECEIVERS = new EarlyDaysMushroomPlantBlock(FabricBlockSettings.of(Material.PLANT, MapColor.BROWN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS));
     //crops
     public static final EarlyDaysCropBlock PEPPERS = new EarlyDaysCropBlock(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
-    public static final EarlyDaysCropBlock COTTON = new EarlyDaysCropBlock(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final EarlyDaysCropBlock FLAX = new EarlyDaysCropBlock(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final EarlyDaysCropBlock GINGERS = new EarlyDaysCropBlock(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final EarlyDaysWildCrop ALOE = new EarlyDaysWildCrop(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
@@ -98,7 +96,6 @@ public class EarlyDaysBlocks {
         EDRegistry.registerBlockWithItem("wicker_block", WICKER_BLOCK);
         EDRegistry.registerBlockWithItem("thatch", THATCH);
         EDRegistry.registerBlockWithItem("flax_thatch", FLAX_THATCH);
-        EDRegistry.registerBlockWithItem("mycelium_thatch", MYCELIUM_THATCH);
         EDRegistry.registerBlockWithItem("adobe_bricks", ADOBE_BRICKS);
         EDRegistry.registerBlockWithItem("smooth_adobe", SMOOTH_ADOBE);
         EDRegistry.registerBlockWithItem("bamboo_block", BAMBOO_BLOCK);
@@ -110,14 +107,12 @@ public class EarlyDaysBlocks {
         EDRegistry.registerBlockWithItem("wicker_slab", WICKER_SLAB);
         EDRegistry.registerBlockWithItem("thatch_slab", THATCH_SLAB);
         EDRegistry.registerBlockWithItem("flax_thatch_slab", FLAX_THATCH_SLAB);
-        EDRegistry.registerBlockWithItem("mycelium_thatch_slab", MYCELIUM_THATCH_SLAB);
         EDRegistry.registerBlockWithItem("adobe_brick_slab", ADOBE_BRICK_SLAB);
         EDRegistry.registerBlockWithItem("smooth_adobe_slab", SMOOTH_ADOBE_SLAB);
         //stairs
         EDRegistry.registerBlockWithItem("wicker_stairs", WICKER_STAIRS);
         EDRegistry.registerBlockWithItem("thatch_stairs", THATCH_STAIRS);
         EDRegistry.registerBlockWithItem("flax_thatch_stairs", FLAX_THATCH_STAIRS);
-        EDRegistry.registerBlockWithItem("mycelium_thatch_stairs", MYCELIUM_THATCH_STAIRS);
         EDRegistry.registerBlockWithItem("adobe_brick_stairs", ADOBE_BRICK_STAIRS);
         EDRegistry.registerBlockWithItem("smooth_adobe_stairs", SMOOTH_ADOBE_STAIRS);
         //doors
@@ -139,7 +134,9 @@ public class EarlyDaysBlocks {
         EDRegistry.registerBlockWithItem("bamboo_fence_gate", BAMBOO_FENCE_GATE);
         EDRegistry.registerBlockWithItem("dried_bamboo_fence_gate", DRIED_BAMBOO_FENCE_GATE);
         //misc
-       // EDRegistry.registerBlockWithItem("wheel_loom", WHEEL_LOOM);
+        //EDRegistry.registerBlockWithItem("wheel_loom", WHEEL_LOOM);
+        EDRegistry.registerBlockWithItem("wicker_basket", WICKER_BASKET);
+        EDRegistry.registerBlockWithItem("drying_rack", DRYING_RACK);
         //bundles
         EDRegistry.registerBlockWithItem("ace_bundle", ACE_BUNDLE);
         EDRegistry.registerBlockWithItem("aro_bundle", ARO_BUNDLE);
@@ -174,12 +171,9 @@ public class EarlyDaysBlocks {
         EDRegistry.registerBlockWithItem("amethyst_deceivers", AMETHYST_DECEIVERS);
         //crops
         EDRegistry.registerBlockWithItem("peppers", PEPPERS);
-        EDRegistry.registerBlockWithItem("cotton", COTTON);
         EDRegistry.registerBlockWithItem("flax", FLAX);
         EDRegistry.registerBlockWithItem("gingers", GINGERS);
         EDRegistry.registerBlockWithItem("obsidian_roots", OBSIDIAN_ROOTS);
         EDRegistry.registerBlockWithItem("aloe", ALOE);
-
-
     }
 }

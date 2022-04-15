@@ -54,13 +54,11 @@ public class LootTableModifier {
             Tag<Block> DROPS_PLANT_MATTER = ServerTagManagerHolder.getTagManager().getOrCreateTagGroup(Registry.BLOCK_KEY).getTag(new Identifier(MODID, "drops_plant_matter"));
             Tag<EntityType<?>> LARGE_MAMMALS = ServerTagManagerHolder.getTagManager().getOrCreateTagGroup(Registry.ENTITY_TYPE_KEY).getTag(new Identifier(MODID, "large_mammals"));
             Tag<EntityType<?>> SMALL_MAMMALS = ServerTagManagerHolder.getTagManager().getOrCreateTagGroup(Registry.ENTITY_TYPE_KEY).getTag(new Identifier(MODID, "small_mammals"));
-            Tag<EntityType<?>> DROPS_BONES = ServerTagManagerHolder.getTagManager().getOrCreateTagGroup(Registry.ENTITY_TYPE_KEY).getTag(new Identifier(MODID, "drops_bones"));
 
             Set<Identifier> DROPS_FLINT_IDS = DROPS_FLINT.values().stream().map(AbstractBlock::getLootTableId).collect(Collectors.toSet());
             Set<Identifier> DROPS_PLANT_MATTER_IDS = DROPS_PLANT_MATTER.values().stream().map(block -> block.getLootTableId()).collect(Collectors.toSet());
             Set<Identifier> LARGE_MAMMALS_IDS = LARGE_MAMMALS.values().stream().map(EntityType::getLootTableId).collect(Collectors.toSet());
             Set<Identifier> SMALL_MAMMALS_IDS = SMALL_MAMMALS.values().stream().map(EntityType::getLootTableId).collect(Collectors.toSet());
-            Set<Identifier> DROPS_BONES_IDS = DROPS_BONES.values().stream().map(EntityType::getLootTableId).collect(Collectors.toSet());
 
             if (DROPS_FLINT_IDS.contains(id)) {
                 FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
@@ -84,12 +82,6 @@ public class LootTableModifier {
                 FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .with(ItemEntry.builder(EarlyDaysItems.genericItems.get(HIDE)));
-                table.pool(poolBuilder);
-            }
-            if (DROPS_BONES_IDS.contains(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .with(ItemEntry.builder(Items.BONE));
                 table.pool(poolBuilder);
             }
         });
