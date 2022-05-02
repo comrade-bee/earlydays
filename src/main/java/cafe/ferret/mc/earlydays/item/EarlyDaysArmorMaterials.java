@@ -1,6 +1,5 @@
 package cafe.ferret.mc.earlydays.item;
 
-import cafe.ferret.mc.earlydays.EarlyDays;
 import cafe.ferret.mc.earlydays.init.EarlyDaysItems;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;

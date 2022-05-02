@@ -17,8 +17,6 @@ public class EarlyDaysBlocks {
     public static final PillarBlock BAMBOO_BLOCK = new PillarBlock(FabricBlockSettings.of(Material.WOOD, MapColor.GREEN).strength(1.5F, 3.0F).sounds(BlockSoundGroup.WOOD));
     public static final PillarBlock DRIED_BAMBOO_BLOCK = new PillarBlock(FabricBlockSettings.of(Material.WOOD, MapColor.BROWN).strength(1.5F, 3.0F).sounds(BlockSoundGroup.WOOD));
     public static final Block BONE_PILE = new Block(FabricBlockSettings.copy(Blocks.BONE_BLOCK));
-    public static final Block STRANGE_SOIL = new Block(FabricBlockSettings.copy(Blocks.COARSE_DIRT));
-    public static final MushroomBlock GLOWSHROOM_BLOCK = new MushroomBlock(FabricBlockSettings.of(Material.WOOD, MapColor.WHITE).strength(0.2F).sounds(BlockSoundGroup.WOOD).luminance(10));
     //slabs
     public static final SlabBlock WICKER_SLAB = new SlabBlock(FabricBlockSettings.copy(WICKER_BLOCK));
     public static final SlabBlock THATCH_SLAB = new SlabBlock(FabricBlockSettings.copy(THATCH));
@@ -63,34 +61,21 @@ public class EarlyDaysBlocks {
     public static final Block PAN_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
     public static final Block TRANS_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
     //flowers
-    public static final FlowerBlock BLUEBELLS = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
-    public static final FlowerBlock TUNDRA_POPPY = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
-    public static final FlowerBlock SHRUB = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
     public static final FlowerBlock WEEPING_LILY = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
-    public static final FlowerBlock RED_ORCHID = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
     public static final FlowerBlock SELF_HEAL = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
     public static final FlowerBlock RAFFLESIA = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
     //plants
     public static final FlowerBlock THORNS = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
     public static final EarlyDaysSandPlant WILD_ALOE = new EarlyDaysSandPlant(StatusEffects.FIRE_RESISTANCE, 0, FabricBlockSettings.copy(Blocks.ALLIUM));
-    public static final FlowerBlock RUSTBEAD_PLANT = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
     //fungi
     public static final EarlyDaysMushroomPlantBlock WITHERCAP_MUSHROOM = new EarlyDaysMushroomPlantBlock(FabricBlockSettings.of(Material.PLANT, MapColor.BROWN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS));
     public static final EarlyDaysMushroomPlantBlock BARGAIN_BELL = new EarlyDaysMushroomPlantBlock(FabricBlockSettings.of(Material.PLANT, MapColor.BROWN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS));
-    public static final EarlyDaysMushroomPlantBlock GREEN_MUSHROOM = new EarlyDaysMushroomPlantBlock(FabricBlockSettings.of(Material.PLANT, MapColor.BROWN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS));
-    public static final EarlyDaysMushroomPlantBlock EARTHSTAR = new EarlyDaysMushroomPlantBlock(FabricBlockSettings.of(Material.PLANT, MapColor.BROWN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS));
-    public static final EarlyDaysMushroomPlantBlock GLOWSHROOM = new EarlyDaysMushroomPlantBlock(FabricBlockSettings.of(Material.PLANT, MapColor.BROWN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).luminance(8));
-    public static final EarlyDaysMushroomPlantBlock MILKCAP_MUSHROOM = new EarlyDaysMushroomPlantBlock(FabricBlockSettings.of(Material.PLANT, MapColor.BROWN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS));
-    public static final EarlyDaysMushroomPlantBlock BROWN_MUSHROOMS = new EarlyDaysMushroomPlantBlock(FabricBlockSettings.of(Material.PLANT, MapColor.BROWN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS));
-    public static final EarlyDaysMushroomPlantBlock RED_MUSHROOMS = new EarlyDaysMushroomPlantBlock(FabricBlockSettings.of(Material.PLANT, MapColor.BROWN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS));
-    public static final EarlyDaysMushroomPlantBlock ASSORTED_MUSHROOMS = new EarlyDaysMushroomPlantBlock(FabricBlockSettings.of(Material.PLANT, MapColor.BROWN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS));
-    public static final EarlyDaysMushroomPlantBlock AMETHYST_DECEIVERS = new EarlyDaysMushroomPlantBlock(FabricBlockSettings.of(Material.PLANT, MapColor.BROWN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS));
     //crops
     public static final EarlyDaysCropBlock PEPPERS = new EarlyDaysCropBlock(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final EarlyDaysCropBlock FLAX = new EarlyDaysCropBlock(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final EarlyDaysCropBlock GINGERS = new EarlyDaysCropBlock(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final EarlyDaysWildCrop ALOE = new EarlyDaysWildCrop(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
-    public static final StrangeCropBlock OBSIDIAN_ROOTS = new StrangeCropBlock(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
+    public static final EarlyDaysCropBlock OBSIDIAN_ROOTS = new EarlyDaysCropBlock(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
 
     public static void register() {
         EDRegistry.registerBlockWithItem("wicker_block", WICKER_BLOCK);
@@ -101,8 +86,6 @@ public class EarlyDaysBlocks {
         EDRegistry.registerBlockWithItem("bamboo_block", BAMBOO_BLOCK);
         EDRegistry.registerBlockWithItem("dried_bamboo_block", DRIED_BAMBOO_BLOCK);
         EDRegistry.registerBlockWithItem("bone_pile", BONE_PILE);
-        EDRegistry.registerBlockWithItem("strange_soil", STRANGE_SOIL);
-        EDRegistry.registerBlockWithItem("glowshroom_block", GLOWSHROOM_BLOCK);
         //slabs
         EDRegistry.registerBlockWithItem("wicker_slab", WICKER_SLAB);
         EDRegistry.registerBlockWithItem("thatch_slab", THATCH_SLAB);
@@ -147,28 +130,15 @@ public class EarlyDaysBlocks {
         EDRegistry.registerBlockWithItem("pan_bundle", PAN_BUNDLE);
         EDRegistry.registerBlockWithItem("trans_bundle", TRANS_BUNDLE);
         //flowers
-        EDRegistry.registerBlockWithItem("bluebells", BLUEBELLS);
-        EDRegistry.registerBlockWithItem("tundra_poppy", TUNDRA_POPPY);
-        EDRegistry.registerBlockWithItem("shrub", SHRUB);
         EDRegistry.registerBlockWithItem("weeping_lily", WEEPING_LILY);
-        EDRegistry.registerBlockWithItem("red_orchid", RED_ORCHID);
         EDRegistry.registerBlockWithItem("self_heal", SELF_HEAL);
         EDRegistry.registerBlockWithItem("rafflesia", RAFFLESIA);
         //plants
         EDRegistry.registerBlockWithItem("thorns", THORNS);
         EDRegistry.registerBlockWithItem("wild_aloe", WILD_ALOE);
-        EDRegistry.registerBlockWithItem("rustbead_plant", RUSTBEAD_PLANT);
         //fungi
         EDRegistry.registerBlockWithItem("withercap_mushroom", WITHERCAP_MUSHROOM);
         EDRegistry.registerBlockWithItem("bargain_bell", BARGAIN_BELL);
-        EDRegistry.registerBlockWithItem("green_mushroom", GREEN_MUSHROOM);
-        EDRegistry.registerBlockWithItem("earthstar", EARTHSTAR);
-        EDRegistry.registerBlockWithItem("glowshroom", GLOWSHROOM);
-        EDRegistry.registerBlockWithItem("milkcap_mushroom", MILKCAP_MUSHROOM);
-        EDRegistry.registerBlockWithItem("brown_mushrooms", BROWN_MUSHROOMS);
-        EDRegistry.registerBlockWithItem("red_mushrooms", RED_MUSHROOMS);
-        EDRegistry.registerBlockWithItem("assorted_mushrooms", ASSORTED_MUSHROOMS);
-        EDRegistry.registerBlockWithItem("amethyst_deceivers", AMETHYST_DECEIVERS);
         //crops
         EDRegistry.registerBlockWithItem("peppers", PEPPERS);
         EDRegistry.registerBlockWithItem("flax", FLAX);

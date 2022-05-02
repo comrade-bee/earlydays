@@ -7,6 +7,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.Item;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Final;
@@ -40,7 +41,6 @@ public abstract class CopperMiningMixin extends LivingEntity {
                 cir.setReturnValue(true);
         }
     }
-
     protected CopperMiningMixin(EntityType<? extends LivingEntity> entityType, World world) {
         super(entityType, world);
     }

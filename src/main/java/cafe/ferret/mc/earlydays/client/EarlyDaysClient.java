@@ -36,29 +36,20 @@ public class EarlyDaysClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.DRIED_BAMBOO_TRAPDOOR, RenderLayer.getCutout());
 
         //BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.WHEEL_LOOM, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.DRYING_RACK, RenderLayer.getCutout());
 
-        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.BLUEBELLS, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.TUNDRA_POPPY, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.SHRUB, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.FLOWER_BUNDLE_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.TRANS_BUNDLE, RenderLayer.getCutout());
+
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.WEEPING_LILY, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.RED_ORCHID, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.SELF_HEAL, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.RAFFLESIA, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.THORNS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.WILD_ALOE, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.RUSTBEAD_PLANT, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.WITHERCAP_MUSHROOM, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.BARGAIN_BELL, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.GREEN_MUSHROOM, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.EARTHSTAR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.GLOWSHROOM, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.MILKCAP_MUSHROOM, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.BROWN_MUSHROOMS, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.RED_MUSHROOMS, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.ASSORTED_MUSHROOMS, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.AMETHYST_DECEIVERS, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.PEPPERS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.FLAX, RenderLayer.getCutout());

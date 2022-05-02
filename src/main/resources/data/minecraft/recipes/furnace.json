@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Y#Y",
+    "# #",
+    "Y#Y"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "Y":{
+      "item":"minecraft:copper_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace"
+  }
+}

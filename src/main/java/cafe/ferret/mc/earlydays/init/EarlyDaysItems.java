@@ -17,7 +17,7 @@ public class EarlyDaysItems {
     public enum GenericItem {
         PLANT_MATTER, PLANT_FIBER, DRIED_PLANT_MATTER,
         FLAX_BUNDLE, FLOWER_BUNDLE, FLUFF, HIDE, FABRIC, ROPE,
-        ADOBE_MIX, ADOBE_BRICK, DRIED_BAMBOO, COPPER_NUGGET, SEASHELL, SEASTAR, JELLYFISH,
+        ADOBE_MIX, ADOBE_BRICK, DRIED_BAMBOO, SEASHELL,
         ALOE_VERA, BANDAGE, BUTTERFLY_NET
     }
 
@@ -26,8 +26,6 @@ public class EarlyDaysItems {
     // Edibles
     public static final Item PEPPER = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.PEPPER));
     public static final Item CATFISH = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
-    public static final Item MINNOW = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
-    public static final Item CRAYFISH = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
     public static final Item LOBSTER = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
     public static final Item MEAT_BITS = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
     public static final Item GRUB = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
@@ -47,6 +45,7 @@ public class EarlyDaysItems {
     public static final EarlyDaysAxeItem COPPER_HATCHET = new EarlyDaysAxeItem(EarlyDaysToolMaterials.COPPER, 3, -2.4f, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
     public static final EarlyDaysHoeItem COPPER_HOE = new EarlyDaysHoeItem(EarlyDaysToolMaterials.COPPER, 0, -3.0f, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
     public static final ShearsItem COPPER_SHEARS = new ShearsItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).maxDamage(20));
+    public static final FireBowItem FIRE_BOW = new FireBowItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).maxDamage(20));
 
     public static final ArmorItem FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.FLOWER, EquipmentSlot.HEAD, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
     public static final ArmorItem ACE_FLOWER_CROWN = new ArmorItem(EarlyDaysArmorMaterials.ACE_FLOWER, EquipmentSlot.HEAD, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
@@ -82,8 +81,6 @@ public class EarlyDaysItems {
         // Edibles
         EDRegistry.registerItem("pepper", PEPPER);
         EDRegistry.registerItem("catfish", CATFISH);
-        EDRegistry.registerItem("minnow", MINNOW);
-        EDRegistry.registerItem("crayfish", CRAYFISH);
         EDRegistry.registerItem("lobster", LOBSTER);
         EDRegistry.registerItem("meat_bits", MEAT_BITS);
         EDRegistry.registerItem("grub", GRUB);
@@ -101,6 +98,7 @@ public class EarlyDaysItems {
         EDRegistry.registerItem("copper_hatchet", COPPER_HATCHET);
         EDRegistry.registerItem("copper_hoe", COPPER_HOE);
         EDRegistry.registerItem("copper_shears", COPPER_SHEARS);
+        EDRegistry.registerItem("fire_bow", FIRE_BOW);
 
         EDRegistry.registerItem("flower_crown", FLOWER_CROWN);
         EDRegistry.registerItem("ace_flower_crown", ACE_FLOWER_CROWN);
