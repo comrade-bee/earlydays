@@ -39,6 +39,11 @@ public class EarlyDaysClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.DRYING_RACK, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.FLOWER_BUNDLE_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.ACE_BUNDLE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.ARO_BUNDLE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.BI_BUNDLE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.LESBIAN_BUNDLE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.NONBINARY_BUNDLE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.PAN_BUNDLE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(EarlyDaysBlocks.TRANS_BUNDLE, RenderLayer.getCutout());
 
