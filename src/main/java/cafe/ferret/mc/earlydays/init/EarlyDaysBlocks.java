@@ -51,6 +51,7 @@ public class EarlyDaysBlocks {
     //public static final Block WHEEL_LOOM = new Block(FabricBlockSettings.copy(Blocks.OAK_LOG));
     public static final BasketBlock WICKER_BASKET = new BasketBlock(FabricBlockSettings.copy(WICKER_BLOCK));
     public static final Block DRYING_RACK = new Block(FabricBlockSettings.copy(WICKER_BLOCK));
+    public static final Block BLOOMERY = new BloomeryBlock(FabricBlockSettings.copy(Blocks.FURNACE));
     //bundles
     public static final Block ACE_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
     public static final Block ARO_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
@@ -120,6 +121,7 @@ public class EarlyDaysBlocks {
         //EDRegistry.registerBlockWithItem("wheel_loom", WHEEL_LOOM);
         EDRegistry.registerBlockWithItem("wicker_basket", WICKER_BASKET);
         EDRegistry.registerBlockWithItem("drying_rack", DRYING_RACK);
+        EDRegistry.registerBlockWithItem("bloomery", BLOOMERY);
         //bundles
         EDRegistry.registerBlockWithItem("ace_bundle", ACE_BUNDLE);
         EDRegistry.registerBlockWithItem("aro_bundle", ARO_BUNDLE);

@@ -2,7 +2,6 @@ package cafe.ferret.mc.earlydays.block;
 
 import net.minecraft.block.AbstractFurnaceBlock;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.FurnaceBlock;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.particle.ParticleTypes;
@@ -15,8 +14,8 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.Random;
 
-public class BloomeryBlock extends AbstractFurnaceBlock {
-    public BloomeryBlock(Settings settings) {
+public class AdvancedBloomeryBlock extends AbstractFurnaceBlock {
+    protected AdvancedBloomeryBlock(Settings settings) {
         super(settings);
     }
 
