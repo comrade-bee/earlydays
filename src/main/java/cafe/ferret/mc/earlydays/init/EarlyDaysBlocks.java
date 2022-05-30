@@ -50,17 +50,17 @@ public class EarlyDaysBlocks {
     //misc
     //public static final Block WHEEL_LOOM = new Block(FabricBlockSettings.copy(Blocks.OAK_LOG));
     public static final BasketBlock WICKER_BASKET = new BasketBlock(FabricBlockSettings.copy(WICKER_BLOCK));
-    public static final Block DRYING_RACK = new Block(FabricBlockSettings.copy(WICKER_BLOCK));
+    public static final Block DRYING_RACK = new DryingRackBlock(FabricBlockSettings.copy(WICKER_BLOCK));
     public static final Block BLOOMERY = new BloomeryBlock(FabricBlockSettings.copy(Blocks.FURNACE));
     //bundles
-    public static final Block ACE_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
-    public static final Block ARO_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
-    public static final Block BI_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
-    public static final Block FLOWER_BUNDLE_BLOCK = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
-    public static final Block LESBIAN_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
-    public static final Block NONBINARY_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
-    public static final Block PAN_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
-    public static final Block TRANS_BUNDLE = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
+    public static final Block ACE_BUNDLE = new FlowerBundleBlock(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
+    public static final Block ARO_BUNDLE = new FlowerBundleBlock(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
+    public static final Block BI_BUNDLE = new FlowerBundleBlock(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
+    public static final Block FLOWER_BUNDLE_BLOCK = new FlowerBundleBlock(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
+    public static final Block LESBIAN_BUNDLE = new FlowerBundleBlock(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
+    public static final Block NONBINARY_BUNDLE = new FlowerBundleBlock(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
+    public static final Block PAN_BUNDLE = new FlowerBundleBlock(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
+    public static final Block TRANS_BUNDLE = new FlowerBundleBlock(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
     //flowers
     public static final FlowerBlock WEEPING_LILY = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
     public static final FlowerBlock SELF_HEAL = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
