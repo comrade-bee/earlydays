@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "earlydays:block/bloomery",
+		"0": "earlydays:block/bloomery_loaded",
 		"1": "earlydays:block/bloomery_side",
 		"2": "earlydays:block/bloomery_top",
 		"particle": "earlydays:block/bloomery_side"

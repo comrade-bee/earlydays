@@ -68,9 +68,6 @@ public class EarlyDaysBlocks {
     //plants
     public static final FlowerBlock THORNS = new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, FabricBlockSettings.copy(Blocks.ALLIUM));
     public static final EarlyDaysSandPlant WILD_ALOE = new EarlyDaysSandPlant(StatusEffects.FIRE_RESISTANCE, 0, FabricBlockSettings.copy(Blocks.ALLIUM));
-    //fungi
-    public static final EarlyDaysMushroomPlantBlock WITHERCAP_MUSHROOM = new EarlyDaysMushroomPlantBlock(FabricBlockSettings.of(Material.PLANT, MapColor.BROWN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS));
-    public static final EarlyDaysMushroomPlantBlock BARGAIN_BELL = new EarlyDaysMushroomPlantBlock(FabricBlockSettings.of(Material.PLANT, MapColor.BROWN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS));
     //crops
     public static final EarlyDaysCropBlock PEPPERS = new EarlyDaysCropBlock(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final EarlyDaysCropBlock FLAX = new EarlyDaysCropBlock(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
@@ -138,9 +135,6 @@ public class EarlyDaysBlocks {
         //plants
         EDRegistry.registerBlockWithItem("thorns", THORNS);
         EDRegistry.registerBlockWithItem("wild_aloe", WILD_ALOE);
-        //fungi
-        EDRegistry.registerBlockWithItem("withercap_mushroom", WITHERCAP_MUSHROOM);
-        EDRegistry.registerBlockWithItem("bargain_bell", BARGAIN_BELL);
         //crops
         EDRegistry.registerBlockWithItem("peppers", PEPPERS);
         EDRegistry.registerBlockWithItem("flax", FLAX);
