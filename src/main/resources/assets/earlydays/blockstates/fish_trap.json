@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=east": {
-      "model": "earlydays:block/bloomery",
+      "model": "earlydays:block/fish_trap",
       "y": 90
     },
     "facing=north": {
-      "model": "earlydays:block/bloomery"
+      "model": "earlydays:block/fish_trap"
     },
     "facing=south": {
-      "model": "earlydays:block/bloomery",
+      "model": "earlydays:block/fish_trap",
       "y": 180
     },
     "facing=west": {
-      "model": "earlydays:block/bloomery",
+      "model": "earlydays:block/fish_trap",
       "y": 270
     }
   }

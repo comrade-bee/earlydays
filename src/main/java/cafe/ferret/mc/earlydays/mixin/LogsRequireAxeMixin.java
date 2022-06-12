@@ -1,3 +1,4 @@
+/*
 package cafe.ferret.mc.earlydays.mixin;
 
 import cafe.ferret.mc.earlydays.item.EarlyDaysAxeItem;
@@ -30,7 +31,7 @@ public abstract class LogsRequireAxeMixin extends LivingEntity {
     )
     private void canHarvest(BlockState state, CallbackInfoReturnable<Boolean> cir) {
         Item heldItem = this.inventory.getMainHandStack().getItem();
-        if (BlockTags.LOGS.contains(state.getBlock())) {
+        if (BlockTags.LOGS.isOfRegistry(state.getBlock())) {
             cir.setReturnValue(false);
             if (heldItem instanceof AxeItem) {
                 cir.setReturnValue(true);
@@ -45,3 +46,4 @@ public abstract class LogsRequireAxeMixin extends LivingEntity {
         super(entityType, world);
     }
 }
+*/
