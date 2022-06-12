@@ -29,10 +29,10 @@ public class EarlyDaysItems {
     public static final Item LOBSTER = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
     public static final Item MEAT_BITS = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
     public static final Item GRUB = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
-    public static final MushroomStewItem CHILI = new MushroomStewItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.CHILI));
+    public static final StewItem CHILI = new StewItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.CHILI));
 
     // Medicines
-    public static final MushroomStewItem SALVE = new MushroomStewItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.SALVE).maxCount(1));
+    public static final StewItem SALVE = new StewItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.SALVE).maxCount(1));
     // Tools
     public static final KnifeItem FLINT_KNIFE = new KnifeItem(EarlyDaysToolMaterials.FLINT, 3, -2.4F, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
     public static final ShovelItem FLINT_SHOVEL = new ShovelItem(EarlyDaysToolMaterials.FLINT, 1.5f, -3.0f, new FabricItemSettings().group(EarlyDays.ITEM_GROUP));
