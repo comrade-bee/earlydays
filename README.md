@@ -5,24 +5,17 @@ Early Days adds depth and additional progression to early game survival, and is 
 [You can find our CurseForge page here](https://www.curseforge.com/minecraft/mc-mods/early-days).
 
 ## Current Features
-
-- Copper and flint tool sets
-- Wood now requires an axe to mine
-- Stone and Wood tools now cannot be crafted
-- Wicker, Bamboo, Adobe, and Thatch blocks/items
-- New crops (though currently unobtainable in survival)
-- Salves
-
+- Tool sets for pre-iron survival, replacing and improving upon wood/stone tools
+- A large number of blocks made of easily obtained materials
+- New crops and wild flora
+- Medicinal items made from herbs and honey
+- Bloomeries, drying racks, and other new ways to craft
+- Lightweight overhauls to fishing to make it more engaging and difficult
 ## Planned Features
-
-- Moths
-- New fish
-- Beetles
-- Various hostile fauna
-- New fishing mechanics and loot
+- Ways to expand progression after the copper and iron stages
+- Farming related fauna
+- Various hostile mobs 
 - More crops and wild flora
-- Woodworking Table and Wheel Loom to add further progression layers to crafting
-- Basic diseases and other mechanics for the health system
 - Configuration and spawning for everything
-- Publishing to GitHub
+- Slight trading overhauls
 - And obviously, making everything obtainable in survival
