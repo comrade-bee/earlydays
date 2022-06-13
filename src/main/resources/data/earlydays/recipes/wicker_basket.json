@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W#W",
+    "# #",
+    "W#W"
+  ],
+  "key": {
+    "#": {
+      "item": "earlydays:wicker_block"
+    },
+    "W": {
+      "item": "earlydays:plant_fiber"
+    }
+  },
+  "result": {
+    "item": "earlydays:wicker_basket"
+  }
+} 
