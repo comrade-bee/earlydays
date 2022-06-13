@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.sound.BlockSoundGroup;
+import cafe.ferret.mc.earlydays.block.BasketBlock;
 
 public class EarlyDaysBlocks {
     //B L O C K S
@@ -143,5 +144,6 @@ public class EarlyDaysBlocks {
         EDRegistry.registerBlockWithItem("gingers", GINGERS);
         EDRegistry.registerBlockWithItem("obsidian_roots", OBSIDIAN_ROOTS);
         EDRegistry.registerBlockWithItem("aloe", ALOE);
+
     }
 }

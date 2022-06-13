@@ -7,6 +7,7 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
+@SuppressWarnings("deprecation")
 public enum EarlyDaysToolMaterials implements ToolMaterial {
     FLINT(0, 59, 2.0F, 0.0F, 15, () -> Ingredient.ofItems(Items.FLINT)),
     BONE(0, 59, 2.0F, 0.0F, 15, () -> Ingredient.ofItems(Items.BONE)),

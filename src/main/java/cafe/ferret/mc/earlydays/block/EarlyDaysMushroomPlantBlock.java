@@ -17,7 +17,7 @@ public class EarlyDaysMushroomPlantBlock extends PlantBlock {
         super(settings);
     }
 
-    @SuppressWarnings("deprecation")
+    // @SuppressWarnings("deprecation")
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return SHAPE;

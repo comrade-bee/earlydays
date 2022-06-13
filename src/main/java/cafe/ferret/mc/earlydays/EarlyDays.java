@@ -13,6 +13,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import cafe.ferret.mc.earlydays.init.EarlyDaysScreenHandlers;
 
 import java.util.List;
 
@@ -36,7 +37,10 @@ public class EarlyDays implements ModInitializer {
         EarlyDaysItems.register();
         // Register all entities
         EarlyDaysEntities.register();
+        // Register all screenhandlers
+        EarlyDaysScreenHandlers.register();
 
         FabricDefaultAttributeRegistry.register(EarlyDaysEntities.CATFISH_ENTITY, CatfishEntity.createMobAttributes());
+    
     }
 }

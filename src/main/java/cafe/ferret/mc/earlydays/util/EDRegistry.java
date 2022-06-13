@@ -1,7 +1,7 @@
 package cafe.ferret.mc.earlydays.util;
 
 import cafe.ferret.mc.earlydays.EarlyDays;
-import cafe.ferret.mc.earlydays.init.EarlyDaysItems;
+// import cafe.ferret.mc.earlydays.init.EarlyDaysItems;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -18,4 +18,5 @@ public class EDRegistry {
         Registry.register(Registry.BLOCK, new Identifier(EarlyDays.MODID, name), block);
         Registry.register(Registry.ITEM, new Identifier(EarlyDays.MODID, name), new BlockItem(block, new FabricItemSettings().group(EarlyDays.ITEM_GROUP)));
     }
+
 }

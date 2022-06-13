@@ -5,6 +5,7 @@ import cafe.ferret.mc.earlydays.client.model.CatfishEntityModel;
 import cafe.ferret.mc.earlydays.client.render.CatfishEntityRenderer;
 import cafe.ferret.mc.earlydays.init.EarlyDaysBlocks;
 import cafe.ferret.mc.earlydays.init.EarlyDaysEntities;
+import cafe.ferret.mc.earlydays.init.EarlyDaysScreenHandlers;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -14,7 +15,10 @@ import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.entity.model.EntityModelLayer;
 import net.minecraft.util.Identifier;
+import net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry;
+import cafe.ferret.mc.earlydays.client.screen.BasketScreen;
 
+@SuppressWarnings("deprecation")
 @Environment(EnvType.CLIENT)
 public class EarlyDaysClient implements ClientModInitializer {
     public static final EntityModelLayer CATFISH_MODEL_LAYER = new EntityModelLayer(new Identifier(EarlyDays.MODID, "catfish"), "main");
@@ -22,8 +26,8 @@ public class EarlyDaysClient implements ClientModInitializer {
     public static void registerColors() {
     }
 
-    private static void registerBlockColors() {
-    }
+    /* private static void registerBlockColors() {
+    } */
 
     @Override
     public void onInitializeClient() {
@@ -63,5 +67,7 @@ public class EarlyDaysClient implements ClientModInitializer {
 
         EntityRendererRegistry.register(EarlyDaysEntities.CATFISH_ENTITY, CatfishEntityRenderer::new);
         EntityModelLayerRegistry.registerModelLayer(CATFISH_MODEL_LAYER, CatfishEntityModel::getTexturedModelData);
+
+        ScreenRegistry.register(EarlyDaysScreenHandlers.BASKET_SCREEN_HANDLER, BasketScreen::new);
     }
 }

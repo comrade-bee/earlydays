@@ -14,6 +14,7 @@ import java.util.function.Supplier;
 
 import static cafe.ferret.mc.earlydays.init.EarlyDaysItems.GenericItem.*;
 
+@SuppressWarnings("deprecation")
 public enum EarlyDaysArmorMaterials implements ArmorMaterial {
     WOOD("wood", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{(ItemConvertible) ItemTags.LOGS.id()});

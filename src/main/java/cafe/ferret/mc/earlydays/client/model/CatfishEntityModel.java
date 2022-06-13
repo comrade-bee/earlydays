@@ -9,8 +9,8 @@ import net.minecraft.util.math.MathHelper;
 
 @Environment(EnvType.CLIENT)
 public class CatfishEntityModel<T extends Entity> extends SinglePartEntityModel<T> {
-    private static final String BODY_FRONT = "body_front";
-    private static final String BODY_BACK = "body_back";
+    // private static final String BODY_FRONT = "body_front";
+    // private static final String BODY_BACK = "body_back";
     private final ModelPart root;
     private final ModelPart tail;
 
@@ -35,7 +35,7 @@ public class CatfishEntityModel<T extends Entity> extends SinglePartEntityModel<
         modelPartData3.addChild("left_back_fin", ModelPartBuilder.create().uv(0, 2).cuboid(0.0F, -1.0F, -1.0F, 2.0F, 0.0F, 2.0F), ModelTransform.of(2.0F, 1.0F, 5.0F, 0.0F, 0.0F, 0.7854F));
         modelPartData3.addChild("right_back_fin", ModelPartBuilder.create().uv(0, 0).cuboid(-2.0F, -1.0F, -1.0F, 2.0F, 0.0F, 2.0F), ModelTransform.of(-2.0F, 1.0F, 5.0F, 0.0F, 0.0F, -0.7854F));
         //head
-        ModelPartData modelPartData4 = modelPartData2.addChild("head", ModelPartBuilder.create().uv(0, 0).cuboid(-2.5f, -2f, -4f, 5f, 3f, 4f), ModelTransform.pivot(0.0f, 0.0f, 0.0f));
+        // ModelPartData modelPartData4 = modelPartData2.addChild("head", ModelPartBuilder.create().uv(0, 0).cuboid(-2.5f, -2f, -4f, 5f, 3f, 4f), ModelTransform.pivot(0.0f, 0.0f, 0.0f));
         modelPartData2.addChild("left_barb", ModelPartBuilder.create().uv(12, 0).cuboid(-1.7071F, -1.0F, -0.7071F, 4.0F, 0.0F, 2.0F), ModelTransform.of(3.7247F, 1.0F, -2.8411F, 0.0F, -0.2618F, 0.0F));
         modelPartData2.addChild("right_barb", ModelPartBuilder.create().uv(12, 2).cuboid(-4.7071F, -1.0F, -0.7071F, 4.0F, 0.0F, 2.0F), ModelTransform.of(-1.3928F, 1.0F, -3.4659F, 0.0F, 0.2618F, 0.0F));
         return TexturedModelData.of(modelData, 32, 32);
