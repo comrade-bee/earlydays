@@ -1,4 +1,12 @@
 package cafe.ferret.mc.earlydays.block.entity;
 
-public class FishTrapBlockEntity {
+import cafe.ferret.mc.earlydays.init.EarlyDaysBlockEntities;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.util.math.BlockPos;
+
+public class FishTrapBlockEntity extends BlockEntity {
+    public FishTrapBlockEntity(BlockPos pos, BlockState state) {
+        super(EarlyDaysBlockEntities.FISH_TRAP, pos, state);
+    }
 }
