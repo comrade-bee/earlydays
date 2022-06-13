@@ -1,6 +1,6 @@
 {
     "parent": "block/fence_side",
     "textures": {
-        "texture": "earlydays:block/dried_bamboo_block_side"
+        "texture": "earlydays:block/dried_bamboo_block"
     }
 }

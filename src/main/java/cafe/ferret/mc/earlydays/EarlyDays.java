@@ -1,6 +1,7 @@
 package cafe.ferret.mc.earlydays;
 
 import cafe.ferret.mc.earlydays.entity.CatfishEntity;
+import cafe.ferret.mc.earlydays.init.EarlyDaysBlockEntities;
 import cafe.ferret.mc.earlydays.init.EarlyDaysBlocks;
 import cafe.ferret.mc.earlydays.init.EarlyDaysEntities;
 import cafe.ferret.mc.earlydays.init.EarlyDaysItems;
@@ -29,6 +30,8 @@ public class EarlyDays implements ModInitializer {
     public void onInitialize() {
         // Register all blocks
         EarlyDaysBlocks.register();
+        //Register all block entities
+        EarlyDaysBlockEntities.register();
         // Register all items
         EarlyDaysItems.register();
         // Register all entities

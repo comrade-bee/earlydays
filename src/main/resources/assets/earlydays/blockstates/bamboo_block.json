@@ -1,16 +1,5 @@
 {
-  "variants": {
-    "axis=x": {
-      "model": "earlydays:block/bamboo_block_horizontal",
-      "x": 90,
-      "y": 90
-    },
-    "axis=y": {
-      "model": "earlydays:block/bamboo_block"
-    },
-    "axis=z": {
-      "model": "earlydays:block/bamboo_block_horizontal",
-      "x": 90
+    "variants": {
+        "": { "model": "earlydays:block/bamboo_block" }
     }
-  }
 }

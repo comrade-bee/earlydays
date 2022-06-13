@@ -14,8 +14,8 @@ public class EarlyDaysBlocks {
     public static final Block FLAX_THATCH = new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK));
     public static final Block ADOBE_BRICKS = new Block(FabricBlockSettings.of(Material.STONE, MapColor.DIRT_BROWN).requiresTool().strength(1.25F, 4.2F));
     public static final Block SMOOTH_ADOBE = new Block(FabricBlockSettings.copy(ADOBE_BRICKS));
-    public static final PillarBlock BAMBOO_BLOCK = new PillarBlock(FabricBlockSettings.of(Material.WOOD, MapColor.GREEN).strength(1.5F, 3.0F).sounds(BlockSoundGroup.WOOD));
-    public static final PillarBlock DRIED_BAMBOO_BLOCK = new PillarBlock(FabricBlockSettings.of(Material.WOOD, MapColor.BROWN).strength(1.5F, 3.0F).sounds(BlockSoundGroup.WOOD));
+    public static final Block BAMBOO_BLOCK = new Block(FabricBlockSettings.of(Material.WOOD, MapColor.GREEN).strength(1.5F, 3.0F).sounds(BlockSoundGroup.WOOD));
+    public static final Block DRIED_BAMBOO_BLOCK = new Block(FabricBlockSettings.of(Material.WOOD, MapColor.BROWN).strength(1.5F, 3.0F).sounds(BlockSoundGroup.WOOD));
     public static final Block BONE_PILE = new Block(FabricBlockSettings.copy(Blocks.BONE_BLOCK));
     //slabs
     public static final SlabBlock WICKER_SLAB = new SlabBlock(FabricBlockSettings.copy(WICKER_BLOCK));
