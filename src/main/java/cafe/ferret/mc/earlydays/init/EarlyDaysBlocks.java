@@ -24,12 +24,16 @@ public class EarlyDaysBlocks {
     public static final SlabBlock FLAX_THATCH_SLAB = new SlabBlock(FabricBlockSettings.copy(FLAX_THATCH));
     public static final SlabBlock ADOBE_BRICK_SLAB = new SlabBlock(FabricBlockSettings.copy(ADOBE_BRICKS));
     public static final SlabBlock SMOOTH_ADOBE_SLAB = new SlabBlock(FabricBlockSettings.copy(SMOOTH_ADOBE));
+    public static final SlabBlock BAMBOO_SLAB = new SlabBlock(FabricBlockSettings.copy(BAMBOO_BLOCK));
+    public static final SlabBlock DRIED_BAMBOO_SLAB = new SlabBlock(FabricBlockSettings.copy(DRIED_BAMBOO_BLOCK));
     //stairs
     public static final EarlyDaysStairsBlock WICKER_STAIRS = new EarlyDaysStairsBlock(WICKER_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(WICKER_BLOCK));
     public static final EarlyDaysStairsBlock THATCH_STAIRS = new EarlyDaysStairsBlock(THATCH.getDefaultState(), FabricBlockSettings.copyOf(THATCH));
     public static final EarlyDaysStairsBlock FLAX_THATCH_STAIRS = new EarlyDaysStairsBlock(FLAX_THATCH.getDefaultState(), FabricBlockSettings.copyOf(FLAX_THATCH));
     public static final EarlyDaysStairsBlock ADOBE_BRICK_STAIRS = new EarlyDaysStairsBlock(ADOBE_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(ADOBE_BRICKS));
     public static final EarlyDaysStairsBlock SMOOTH_ADOBE_STAIRS = new EarlyDaysStairsBlock(SMOOTH_ADOBE.getDefaultState(), FabricBlockSettings.copyOf(SMOOTH_ADOBE));
+    public static final EarlyDaysStairsBlock BAMBOO_STAIRS = new EarlyDaysStairsBlock(BAMBOO_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(BAMBOO_BLOCK));
+    public static final EarlyDaysStairsBlock DRIED_BAMBOO_STAIRS = new EarlyDaysStairsBlock(DRIED_BAMBOO_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(DRIED_BAMBOO_BLOCK));
     //doors
     public static final EarlyDaysDoorBlock WICKER_DOOR = new EarlyDaysDoorBlock(FabricBlockSettings.of(Material.WOOD, MapColor.BROWN).strength(1.5F, 3.0F).sounds(BlockSoundGroup.WOOD).nonOpaque());
     public static final EarlyDaysDoorBlock BAMBOO_DOOR = new EarlyDaysDoorBlock(FabricBlockSettings.of(Material.WOOD, MapColor.GREEN).strength(1.5F, 3.0F).sounds(BlockSoundGroup.WOOD).nonOpaque());
@@ -92,12 +96,16 @@ public class EarlyDaysBlocks {
         EDRegistry.registerBlockWithItem("flax_thatch_slab", FLAX_THATCH_SLAB);
         EDRegistry.registerBlockWithItem("adobe_brick_slab", ADOBE_BRICK_SLAB);
         EDRegistry.registerBlockWithItem("smooth_adobe_slab", SMOOTH_ADOBE_SLAB);
+        EDRegistry.registerBlockWithItem("bamboo_slab", BAMBOO_SLAB);
+        EDRegistry.registerBlockWithItem("dried_bamboo_slab", DRIED_BAMBOO_SLAB);
         //stairs
         EDRegistry.registerBlockWithItem("wicker_stairs", WICKER_STAIRS);
         EDRegistry.registerBlockWithItem("thatch_stairs", THATCH_STAIRS);
         EDRegistry.registerBlockWithItem("flax_thatch_stairs", FLAX_THATCH_STAIRS);
         EDRegistry.registerBlockWithItem("adobe_brick_stairs", ADOBE_BRICK_STAIRS);
         EDRegistry.registerBlockWithItem("smooth_adobe_stairs", SMOOTH_ADOBE_STAIRS);
+        EDRegistry.registerBlockWithItem("bamboo_stairs", BAMBOO_STAIRS);
+        EDRegistry.registerBlockWithItem("dried_bamboo_stairs", DRIED_BAMBOO_STAIRS);
         //doors
         EDRegistry.registerBlockWithItem("wicker_door", WICKER_DOOR);
         EDRegistry.registerBlockWithItem("dried_bamboo_door", DRIED_BAMBOO_DOOR);

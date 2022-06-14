@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "earlydays:bamboo_block"
+    }
+  },
+  "result": {
+    "item": "earlydays:bamboo_slab",
+    "count": 6
+  }
+} 

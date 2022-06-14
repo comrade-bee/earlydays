@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "earlydays:block/dried_bamboo_slab" },
+        "type=top": { "model": "earlydays:block/dried_bamboo_slab_top" },
+        "type=double": { "model": "earlydays:block/dried_bamboo_block" }
+    }
+}

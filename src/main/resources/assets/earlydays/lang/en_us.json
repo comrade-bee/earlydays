@@ -57,10 +57,8 @@
     "item.earlydays.pepper_seeds":"Pepper Seeds",
     "item.earlydays.flax_seeds":"Flax Seeds",
     "item.earlydays.aloe_vera_seeds":"Aloe Vera Seeds",
-    "item.earlydays.cotton_ball":"Cotton Ball",
 
     "block.earlydays.wicker_block": "Wicker Block",
-    "block.earlydays.wicker_basket": "Wicker Basket",
     "block.earlydays.thatch": "Thatch",
     "block.earlydays.flax_thatch": "Flax Thatch",
     "block.earlydays.adobe_bricks": "Adobe Bricks",
@@ -68,21 +66,24 @@
     "block.earlydays.bamboo_block": "Bamboo Block",
     "block.earlydays.dried_bamboo_block": "Dried Bamboo Block",
     "block.earlydays.bone_pile": "Bone Pile",
-    "block.earlydays.strange_soil": "Strange Soil",
-    "block.earlydays.glowshroom_block": "Glowshroom Block",
     
     "block.earlydays.wicker_slab": "Wicker Slab",
     "block.earlydays.thatch_slab": "Thatch Slab",
     "block.earlydays.flax_thatch_slab": "Flax Thatch Slab",
     "block.earlydays.adobe_brick_slab": "Adobe Brick Slab",
     "block.earlydays.smooth_adobe_slab": "Smooth Adobe Slab",
+    "block.earlydays.bamboo_slab": "Bamboo Slab",
+    "block.earlydays.dried_bamboo_slab": "Dried Bamboo Slab",
+
     
     "block.earlydays.wicker_stairs": "Wicker Stairs",
     "block.earlydays.thatch_stairs": "Thatch Stairs",
     "block.earlydays.flax_thatch_stairs": "Flax Thatch Stairs",
     "block.earlydays.adobe_brick_stairs": "Adobe Brick Stairs",
     "block.earlydays.smooth_adobe_stairs": "Smooth Adobe Stairs",
-    
+    "block.earlydays.bamboo_stairs": "Bamboo Stairs",
+    "block.earlydays.dried_bamboo_stairs": "Dried Bamboo Stairs",
+
     "block.earlydays.wicker_door": "Wicker Door",
     "block.earlydays.bamboo_door": "Bamboo Door",
     "block.earlydays.dried_bamboo_door": "Dried Bamboo Door",
@@ -99,6 +100,11 @@
     "block.earlydays.wicker_fence_gate": "Wicker Fence Gate",
     "block.earlydays.bamboo_fence_gate": "Bamboo Fence Gate",
     "block.earlydays.dried_bamboo_fence_gate": "Dried Bamboo Fence Gate",
+    
+    "block.earlydays.wicker_basket": "Wicker Basket",
+    "block.earlydays.bloomery": "Bloomery",
+    "block.earlydays.drying_rack": "Drying Rack",
+    "block.earlydays.fish_trap": "Fish Trap",
 
     "block.earlydays.ace_bundle": "Asexual Bundle",
     "block.earlydays.aro_bundle": "Aromantic Bundle",

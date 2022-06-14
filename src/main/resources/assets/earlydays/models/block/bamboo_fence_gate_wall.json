@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_fence_gate_wall",
   "textures": {
-    "texture": "earlydays:block/bamboo_block_side"
+    "texture": "earlydays:block/bamboo_block"
   }
 }
