@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "earlydays:block/blackstone_bloomery",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "earlydays:block/blackstone_bloomery"
+    },
+    "facing=south": {
+      "model": "earlydays:block/blackstone_bloomery",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "earlydays:block/blackstone_bloomery",
+      "y": 270
+    }
+  }
+}

@@ -13,6 +13,7 @@ import java.util.HashMap;
 import java.util.Locale;
 
 public class EarlyDaysItems {
+
     // Generic items are items that can be added without needing any special settings.
     public enum GenericItem {
         PLANT_MATTER, PLANT_FIBER, DRIED_PLANT_MATTER,
@@ -25,11 +26,11 @@ public class EarlyDaysItems {
 
     // Edibles
     public static final Item PEPPER = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.PEPPER));
-    public static final Item CATFISH = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
     public static final Item LOBSTER = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
     public static final Item MEAT_BITS = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
     public static final Item GRUB = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.MEAT_BITS));
     public static final StewItem CHILI = new StewItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.CHILI));
+    public static final Item SHADE_CITRUS = new Item(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.PEPPER));
 
     // Medicines
     public static final StewItem SALVE = new StewItem(new FabricItemSettings().group(EarlyDays.ITEM_GROUP).food(EarlyDaysFoodComponents.SALVE).maxCount(1));
@@ -77,10 +78,9 @@ public class EarlyDaysItems {
             ));
         }
 
-
         // Edibles
         EDRegistry.registerItem("pepper", PEPPER);
-        EDRegistry.registerItem("catfish", CATFISH);
+        EDRegistry.registerItem("shade_citrus", SHADE_CITRUS);
         EDRegistry.registerItem("lobster", LOBSTER);
         EDRegistry.registerItem("meat_bits", MEAT_BITS);
         EDRegistry.registerItem("grub", GRUB);

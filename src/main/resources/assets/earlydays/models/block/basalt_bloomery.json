@@ -1,0 +1,9 @@
+{
+  "parent": "earlydays:block/bloomery",
+  "textures": {
+		"0": "earlydays:block/basalt_bloomery",
+		"1": "earlydays:block/basalt_bloomery_side",
+		"2": "earlydays:block/basalt_bloomery_top",
+		"particle": "earlydays:block/basalt_bloomery"
+  }
+}
