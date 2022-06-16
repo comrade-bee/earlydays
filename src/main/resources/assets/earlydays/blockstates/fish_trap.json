@@ -1,18 +1,33 @@
 {
   "variants": {
-    "facing=east": {
+    "facing=east,baited=false": {
       "model": "earlydays:block/fish_trap",
       "y": 90
     },
-    "facing=north": {
+    "facing=north,baited=false": {
       "model": "earlydays:block/fish_trap"
     },
-    "facing=south": {
+    "facing=south,baited=false": {
       "model": "earlydays:block/fish_trap",
       "y": 180
     },
-    "facing=west": {
+    "facing=west,baited=false": {
       "model": "earlydays:block/fish_trap",
+      "y": 270
+    },
+    "facing=east,baited=true": {
+      "model": "earlydays:block/fish_trap_baited",
+      "y": 90
+    },
+    "facing=north,baited=true": {
+      "model": "earlydays:block/fish_trap_baited"
+    },
+    "facing=south,baited=true": {
+      "model": "earlydays:block/fish_trap_baited",
+      "y": 180
+    },
+    "facing=west,baited=true": {
+      "model": "earlydays:block/fish_trap_baited",
       "y": 270
     }
   }
