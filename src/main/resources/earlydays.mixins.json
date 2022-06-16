@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "CopperMiningMixin",
+    "LogsRequireAxeMixin",
     "LootTableBuilderAccessor",
     "MatchingStackAccessor",
     "RecipeFieldAccessor"
