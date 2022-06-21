@@ -6,9 +6,11 @@ import cafe.ferret.mc.earlydays.init.EarlyDaysBlocks;
 import cafe.ferret.mc.earlydays.init.EarlyDaysEntities;
 import cafe.ferret.mc.earlydays.init.EarlyDaysItems;
 import cafe.ferret.mc.earlydays.util.LootTableModifier;
+import cafe.ferret.mc.earlydays.util.RecipeRemover;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
+import net.minecraft.block.Block;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
@@ -42,6 +44,7 @@ public class EarlyDays implements ModInitializer {
         EarlyDaysScreenHandlers.register();
         // Loot table things
         LootTableModifier.lootTableModifier();
+        RecipeRemover.removeRecipe();
 
         FabricDefaultAttributeRegistry.register(EarlyDaysEntities.CATFISH_ENTITY, CatfishEntity.createMobAttributes());
     

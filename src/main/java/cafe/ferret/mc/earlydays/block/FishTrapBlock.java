@@ -2,6 +2,7 @@ package cafe.ferret.mc.earlydays.block;
 
 // import cafe.ferret.mc.earlydays.block.entity.FishTrapBlockEntity;
 import cafe.ferret.mc.earlydays.init.EarlyDaysItems;
+import cafe.ferret.mc.earlydays.init.EarlyDaysTags;
 import net.minecraft.block.*;
 // import net.minecraft.block.entity.BlockEntity;
 // import net.minecraft.block.entity.BlockEntityTicker;
@@ -107,8 +108,7 @@ public class FishTrapBlock extends Block implements Waterloggable {
             if(!state.get(BAITED)&&!state.get(FULL)){
                  if(!handStack.isEmpty()) {
                     // if (handStack.getItem() instanceof FuelRegistry) {
-                    if (handStack.getItem() == EarlyDaysItems.MEAT_BITS ||
-                    handStack.getItem() == EarlyDaysItems.GRUB ) {
+                    if (handStack.isIn(EarlyDaysTags.BAIT_ITEMS)) {
                         world.setBlockState(pos, state.with(BAITED, true), 3);
                         handStack.decrement(1);
                         // blockEntity.markDirty();
