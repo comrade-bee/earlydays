@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "earlydays:grub",
-    "earlydays:meat_bits"
+    "earlydays:meat_bits",
+    "minecraft:fermented_spider_eye"
   ]
 }
